@@ -8,7 +8,7 @@ import java.util.*;
  * author zhuhaitao
  * date 2019/2/19 15:19
  **/
-public class MyFuncTest {
+public class MyFuncMathReferenceTest {
 
   @Test
   public void testGetValue() {

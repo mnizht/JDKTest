@@ -19,7 +19,7 @@ import java.util.function.Supplier;
  * Function<T>:函数型接口      T            R          对类型为T的对象应用操作，并返回R类型的对象。包含方法：R apply(T t)
  * Predicate<T>:断定型接口     T           boolean     确定类型为T的对象是否满足约束条件，返回boolean值。boolean test(T t)
  **/
-public class SysFuncInterTest {
+public class SysFuncInterMathReferenceTest {
   //Consumer<T> 消费型接口
   @Test
   public void testConsumer() {
