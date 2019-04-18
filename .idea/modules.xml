@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JDKTest.iml" filepath="$PROJECT_DIR$/JDKTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JDKTest.main.iml" filepath="$PROJECT_DIR$/.idea/modules/JDKTest.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JDKTest.test.iml" filepath="$PROJECT_DIR$/.idea/modules/JDKTest.test.iml" />
     </modules>
   </component>
 </project>
