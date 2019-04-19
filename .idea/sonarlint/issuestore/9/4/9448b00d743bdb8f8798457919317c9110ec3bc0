@@ -1,8 +1,8 @@
 
-\squid:S1854"9Remove this useless assignment to local variable "list3".(Ã¤ßÏúÿÿÿÿ8üÛêœ-
-Msquid:S1481"*Remove this unused "list3" local variable.(Ã¤ßÏúÿÿÿÿ8üÛêœ-
-Hsquid:S1481"*Remove this unused "list2" local variable.(ªÒÕ¡8üÛêœ-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ãîÓÿÿÿÿÿ8üÛêœ-
 Wsquid:S1854"9Remove this useless assignment to local variable "list2".(ªÒÕ¡8üÛêœ-
 V
 squid:S106"9Replace this use of System.out or System.err by a logger.(ŞÕùˆ8ªÀÕêœ-
+Hsquid:S1481"*Remove this unused "list2" local variable.(ªÒÕ¡8üÛêœ-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ãîÓÿÿÿÿÿ8üÛêœ-
+\squid:S1854"9Remove this useless assignment to local variable "list3".(Ã¤ßÏúÿÿÿÿ8üÛêœ-
+Msquid:S1481"*Remove this unused "list3" local variable.(Ã¤ßÏúÿÿÿÿ8üÛêœ-

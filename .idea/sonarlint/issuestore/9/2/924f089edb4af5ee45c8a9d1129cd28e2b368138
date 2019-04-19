@@ -1,50 +1,50 @@
 
+V
+squid:S106<"9Replace this use of System.out or System.err by a logger.(¶ª£À8âšğºŸ-
 O
-squid:S1067"9Replace this use of System.out or System.err by a logger.(â¤õÄ
-O
-squid:S1068"9Replace this use of System.out or System.err by a logger.(¡Øñ³
+squid:S106/"9Replace this use of System.out or System.err by a logger.(Ô²Áø
+V
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ë›çş8âšğºŸ-
 U
-squid:S106G"9Replace this use of System.out or System.err by a logger.(¨Ğû8âšğºŸ-
-O
-squid:S1061"9Replace this use of System.out or System.err by a logger.(¡¦’²
+squid:S106O"9Replace this use of System.out or System.err by a logger.(²¹â8âšğºŸ-
+1squid:S1220""Move this file to a named package.
 U
 squid:S106'"9Replace this use of System.out or System.err by a logger.(Û´±G8âšğºŸ-
-1squid:S1220""Move this file to a named package.
+Vsquid:S1197F"8Move the array designator from the variable to the type.(ÚÜ¨ß8âšğºŸ-
 [
 squid:S106)"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8âšğºŸ-
+Gsquid:S1481")Remove this unused "list" local variable.(ŠŒÖ8Ä¥ôºŸ-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(•ñÙ8ƒ¤ñµ-
 bsquid:UselessImportCheck"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8şöºŸ-
+O
+squid:S1067"9Replace this use of System.out or System.err by a logger.(â¤õÄ
+T
+squid:S1069"9Replace this use of System.out or System.err by a logger.(ªºè€ùÿÿÿÿ
+O
+squid:S1060"9Replace this use of System.out or System.err by a logger.(¿ò­
+Vsquid:S1854"8Remove this useless assignment to local variable "list".(ŠŒÖ8Ä¥ôºŸ-
 N
 squid:S1064"9Replace this use of System.out or System.err by a logger.(ÆÈ˜F
 O
 squid:S106:"9Replace this use of System.out or System.err by a logger.(ÊÃ
 [
-squid:S1065"9Replace this use of System.out or System.err by a logger.(ÚúÑòşÿÿÿÿ8âšğºŸ-
-T
-squid:S1069"9Replace this use of System.out or System.err by a logger.(ªºè€ùÿÿÿÿ
-Gsquid:S1481")Remove this unused "list" local variable.(ŠŒÖ8Ä¥ôºŸ-
-V
-squid:S106<"9Replace this use of System.out or System.err by a logger.(¶ª£À8âšğºŸ-
-U
-squid:S106"9Replace this use of System.out or System.err by a logger.(²¹â8û‹‹¶-
-[
 squid:S106>"9Replace this use of System.out or System.err by a logger.(¤òàíûÿÿÿÿ8âšğºŸ-
 O
 squid:S106."9Replace this use of System.out or System.err by a logger.(È•ÌØ
+Ysquid:S1854C"6Remove this useless assignment to local variable "s1".(—ºµÉúÿÿÿÿ8âšğºŸ-
+isquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(êåÌã8âšğºŸ-
+[
+squid:S1065"9Replace this use of System.out or System.err by a logger.(ÚúÑòşÿÿÿÿ8âšğºŸ-
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(²¹â8û‹‹¶-
+Jsquid:S1481C"'Remove this unused "s1" local variable.(—ºµÉúÿÿÿÿ8âšğºŸ-
+U
+squid:S106G"9Replace this use of System.out or System.err by a logger.(¨Ğû8âšğºŸ-
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ê»ñºŸ-
-Vsquid:S1854"8Remove this useless assignment to local variable "list".(ŠŒÖ8Ä¥ôºŸ-
-Jsquid:S1481C"'Remove this unused "s1" local variable.(—ºµÉúÿÿÿÿ8âšğºŸ-
-V
-squid:S1062"9Replace this use of System.out or System.err by a logger.(ë›çş8âšğºŸ-
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(•ñÙ8ƒ¤ñµ-
 O
-squid:S106/"9Replace this use of System.out or System.err by a logger.(Ô²Áø
-isquid:CommentedOutCodeLine!"<This block of commented-out lines of code should be removed.(êåÌã8âšğºŸ-
-O
-squid:S1060"9Replace this use of System.out or System.err by a logger.(¿ò­
-Vsquid:S1197F"8Move the array designator from the variable to the type.(ÚÜ¨ß8âšğºŸ-
-U
-squid:S106O"9Replace this use of System.out or System.err by a logger.(²¹â8âšğºŸ-
-Ysquid:S1854C"6Remove this useless assignment to local variable "s1".(—ºµÉúÿÿÿÿ8âšğºŸ-
+squid:S1068"9Replace this use of System.out or System.err by a logger.(¡Øñ³
 O
 squid:S106;"9Replace this use of System.out or System.err by a logger.(êùÆÁ
+O
+squid:S1061"9Replace this use of System.out or System.err by a logger.(¡¦’²
