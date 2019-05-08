@@ -24,7 +24,10 @@ public class ListTest {
     int size = 11;
     int firstResult = 2;
     int maxResults = 90;
-    System.out.println(String.format("获取个人:%s代办任务结果长度: %d,firstResult:%d,maxResult:%d",userId, size,firstResult,maxResults));
+   // System.out.println(String.format("获取个人:%s代办任务结果长度: %d,firstResult:%d,maxResult:%d",userId, size,firstResult,maxResults));
 
+    List<String> ll = null;
+    ll.forEach(x-> System.out.println(x));
+    System.out.println("end");
   }
 }

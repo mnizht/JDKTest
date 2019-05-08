@@ -7,6 +7,8 @@ import java.util.Collections;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Main {
 
@@ -19,11 +21,13 @@ public class Main {
         subjects.add("物理");
         subjects.add("化学");
         subjects.add("生物");
-        streamTest(subjects);
-        System.out.println(subjects);
+       // streamTest(subjects);
+       // System.out.println(subjects);
 
         List<String> list = new ArrayList<>();
         System.out.println();
+
+        stringTest();
 
     }
 
@@ -77,5 +81,12 @@ public class Main {
         List<String> scores = Arrays.asList("语文","英语","生物","化学","物理","数学","政治","历史","地理");
         subjects.removeAll(scores);
         System.out.println(subjects);
+    }
+
+    public static void stringTest(){
+        List<String> list = Arrays.asList("宋江","卢俊义","晁盖","阮小二","阮小五","阮小七");
+        String name = "";
+        List<String> stringList = list.stream().filter(x -> x.contains(name)).collect(Collectors.toList());
+        System.out.println(stringList);
     }
 }

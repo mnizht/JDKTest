@@ -1,58 +1,58 @@
 
-Zsquid:UnusedPrivateMethod".Remove this unused private "java7and8" method.(½¨âØ8®¾ß-
-e$squid:AssignmentInSubExpressionCheck".Extract the assignment out of this expression.(İà 8ÔŞçß-
+asquid:S2184”"BCast one of the operands of this division operation to a "double".(ú‚º…8®¾ß-
 [
-squid:S106;"9Replace this use of System.out or System.err by a logger.(úˆÏ¨ıÿÿÿÿ8®¾ß-
+squid:S106&"9Replace this use of System.out or System.err by a logger.(ûÉ÷éúÿÿÿÿ8®¾ß-
+V
+squid:S106#"9Replace this use of System.out or System.err by a logger.(§‘ÜÖ8®¾ß-
 V
 squid:S1063"9Replace this use of System.out or System.err by a logger.(Ìëì¨8®¾ß-
 [
-squid:S106*"9Replace this use of System.out or System.err by a logger.(Ü³Äşÿÿÿÿ8®¾ß-
-[
-squid:S1069"9Replace this use of System.out or System.err by a logger.(ÙÂŸûûÿÿÿÿ8®¾ß-
-[
-squid:S106""9Replace this use of System.out or System.err by a logger.(¼áäıÿÿÿÿ8®¾ß-
-[
-squid:S1064"9Replace this use of System.out or System.err by a logger.(—ÿËÿÿÿÿÿ8®¾ß-
-V
-squid:S106:"9Replace this use of System.out or System.err by a logger.(Şıëµ8®¾ß-
-Jsquid:S1612=",Replace this lambda with a method reference.(“ˆé¯8®¾ß-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(€—’8®¾ß-
+squid:S106;"9Replace this use of System.out or System.err by a logger.(úˆÏ¨ıÿÿÿÿ8®¾ß-
+;squid:S2119("Save and re-use this "Random".(¼İÅf8®¾ß-
+>squid:S2129m"!Remove this "Integer" constructor(ÒÀÊ[8®¾ß-
+Zsquid:UnusedPrivateMethod".Remove this unused private "java7and8" method.(½¨âØ8®¾ß-
 V
 squid:S106 "9Replace this use of System.out or System.err by a logger.(ÎÁä´8®¾ß-
 [
-squid:S1068"9Replace this use of System.out or System.err by a logger.(­¨Œ“üÿÿÿÿ8®¾ß-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ùáñß8®¾ß-
-V
-squid:S106#"9Replace this use of System.out or System.err by a logger.(§‘ÜÖ8®¾ß-
-asquid:S2184”"BCast one of the operands of this division operation to a "double".(ú‚º…8®¾ß-
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8ÆÎß-
-V
-squid:S106'"9Replace this use of System.out or System.err by a logger.(¦Ù£ê8®¾ß-
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ğ–¡Ğ8®¾ß-
+squid:S1069"9Replace this use of System.out or System.err by a logger.(ÙÂŸûûÿÿÿÿ8®¾ß-
 V
 squid:S1061"9Replace this use of System.out or System.err by a logger.(§ö–à8®¾ß-
-;squid:S2119("Save and re-use this "Random".(¼İÅf8®¾ß-
+Osquid:S1612.",Replace this lambda with a method reference.(‘®‡¡ûÿÿÿÿ8®¾ß-
+V
+squid:S106:"9Replace this use of System.out or System.err by a logger.(Şıëµ8®¾ß-
 [
 squid:S106%"9Replace this use of System.out or System.err by a logger.(î­°óüÿÿÿÿ8®¾ß-
 [
-squid:S106"9Replace this use of System.out or System.err by a logger.(¥ÙÁßşÿÿÿÿ8®¾ß-
-Osquid:S1612.",Replace this lambda with a method reference.(‘®‡¡ûÿÿÿÿ8®¾ß-
-[
-squid:S1062"9Replace this use of System.out or System.err by a logger.(úİüÛıÿÿÿÿ8®¾ß-
-V
-squid:S106>"9Replace this use of System.out or System.err by a logger.(×¾†Ì8®¾ß-
->squid:S2129m"!Remove this "Integer" constructor(ÒÀÊ[8®¾ß-
+squid:S1064"9Replace this use of System.out or System.err by a logger.(—ÿËÿÿÿÿÿ8®¾ß-
 V
 squid:S1067"9Replace this use of System.out or System.err by a logger.(Û¶ßÃ8®¾ß-
 V
+squid:S106>"9Replace this use of System.out or System.err by a logger.(×¾†Ì8®¾ß-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(¥ÙÁßşÿÿÿÿ8®¾ß-
+e$squid:AssignmentInSubExpressionCheck".Extract the assignment out of this expression.(İà 8ÔŞçß-
+V
+squid:S106'"9Replace this use of System.out or System.err by a logger.(¦Ù£ê8®¾ß-
+V
 squid:S106/"9Replace this use of System.out or System.err by a logger.(×¾†Ì8®¾ß-
+[
+squid:S1068"9Replace this use of System.out or System.err by a logger.(­¨Œ“üÿÿÿÿ8®¾ß-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ğ–¡Ğ8®¾ß-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(€—’8®¾ß-
+[
+squid:S106*"9Replace this use of System.out or System.err by a logger.(Ü³Äşÿÿÿÿ8®¾ß-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8ÆÎß-
+[
+squid:S1062"9Replace this use of System.out or System.err by a logger.(úİüÛıÿÿÿÿ8®¾ß-
+Jsquid:S1612=",Replace this lambda with a method reference.(“ˆé¯8®¾ß-
 V
 squid:S1066"9Replace this use of System.out or System.err by a logger.(£Š¨¿8®¾ß-
 [
-squid:S106$"9Replace this use of System.out or System.err by a logger.(…±Şøÿÿÿÿ8®¾ß-
+squid:S106""9Replace this use of System.out or System.err by a logger.(¼áäıÿÿÿÿ8®¾ß-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ùáñß8®¾ß-
 [
-squid:S106&"9Replace this use of System.out or System.err by a logger.(ûÉ÷éúÿÿÿÿ8®¾ß-
+squid:S106$"9Replace this use of System.out or System.err by a logger.(…±Şøÿÿÿÿ8®¾ß-
