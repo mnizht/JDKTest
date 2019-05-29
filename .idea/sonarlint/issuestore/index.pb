@@ -13,3 +13,5 @@ T
 $src/cn/zhuht/jdk8test/pojo/User.java,2\b\2bcfc74dd99d445ca77cfc656642df71c998ae17
 \
 ,src/cn/zhuht/jdk8test/lambda/LambdaTest.java,b\3\b32287167ad0fc4d3f44392ac07e32f5ebc2b657
+a
+1src/cn/zhuht/jdk8test/collection/TreeSetTest.java,e\2\e209fa962923b55c14f5274a991b49d7ec854b91

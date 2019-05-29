@@ -1,6 +1,12 @@
 package cn.zhuht.jdk8test.stream;
 
-import java.util.*;
+import cn.zhuht.jdk8test.pojo.User;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.IntSummaryStatistics;
+import java.util.List;
+import java.util.Random;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -12,9 +18,28 @@ import java.util.stream.Stream;
 //.parallelStream() 创建并行流
 public class StreamTest {
   public static void main(String[] args) {
-    streamPeekTest();
+
   }
 
+  private static void streamVariable(){
+    User user1 = new User("aa",1,0.0);
+    User user2 = new User("bb",2,1.0);
+    User user3 = new User("cc",3,1.0);
+    User user4 = new User("dd",4,2.0);
+    User user5 = new User("ee",5,3.0);
+    User user6 = new User("ff",6,2.0);
+    User user7 = new User("gg",7,4.0);
+    List<User> list = Arrays.asList(user1,user2,user3,user4,user5,user6,user7);
+    List<Integer> ages = new ArrayList<>();
+    ages.add(2);
+    list.forEach(x->{
+      if(ages.contains(x.getWeight().intValue())){
+        ages.add(x.getAge());
+      }
+    });
+    System.out.println(ages);
+
+  }
   private static void streamPeekTest(){
     List<String> list = Stream.of("apple","banana","orange","watermelon").filter(x->x.length()>5)
       .peek(x->x+="aaa").collect(Collectors.toList());

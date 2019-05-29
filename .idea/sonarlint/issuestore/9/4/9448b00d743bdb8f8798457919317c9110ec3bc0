@@ -1,21 +1,21 @@
 
-\squid:S1854"9Remove this useless assignment to local variable "list3".(Ã¤ßÏúÿÿÿÿ8üÛêœ-
-asquid:S1854">Remove this useless assignment to local variable "maxResults".(ÕèíÂıÿÿÿÿ8ÛùÄ¾¥-
-Hsquid:S1481"*Remove this unused "list2" local variable.(ªÒÕ¡8üÛêœ-
-Ssquid:S1481"0Remove this unused "firstResult" local variable.(†ã•ôûÿÿÿÿ8ÛùÄ¾¥-
-Wsquid:S1854"9Remove this useless assignment to local variable "list2".(ªÒÕ¡8üÛêœ-
-Vsquid:S1854"8Remove this useless assignment to local variable "size".(ÔÀª²8ÛùÄ¾¥-
-Gsquid:S1481")Remove this unused "size" local variable.(ÔÀª²8ÛùÄ¾¥-
-Jsquid:S1612",Replace this lambda with a method reference.(Æ’Áú8Ã¸Ä¾¥-
+Msquid:S1481"*Remove this unused "list3" local variable.(Ã¤ßÏúÿÿÿÿ8üÛêœ-
+Rsquid:S1481"/Remove this unused "maxResults" local variable.(ÕèíÂıÿÿÿÿ8ÛùÄ¾¥-
+^squid:S2259"@A "NullPointerException" could be thrown; "ll" is nullable here.(Æ’Áú8ñ°Ó¾¥-
 bsquid:S1854"?Remove this useless assignment to local variable "firstResult".(†ã•ôûÿÿÿÿ8ÛùÄ¾¥-
+\squid:S1854"9Remove this useless assignment to local variable "list3".(Ã¤ßÏúÿÿÿÿ8üÛêœ-
+Vsquid:S1854"8Remove this useless assignment to local variable "size".(ÔÀª²8ÛùÄ¾¥-
+Hsquid:S1481"+Remove this unused "userId" local variable.(ô”m8ÛùÄ¾¥-
 nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ãîÓÿÿÿÿÿ8üÛêœ-
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˜—ß8ÛùÄ¾¥-
 V
 squid:S106"9Replace this use of System.out or System.err by a logger.(Æ’Áú8Ã¸Ä¾¥-
+Hsquid:S1481"*Remove this unused "list2" local variable.(ªÒÕ¡8üÛêœ-
+Gsquid:S1481")Remove this unused "size" local variable.(ÔÀª²8ÛùÄ¾¥-
+Jsquid:S1612",Replace this lambda with a method reference.(Æ’Áú8Ã¸Ä¾¥-
 [
 squid:S106"9Replace this use of System.out or System.err by a logger.(Æì° úÿÿÿÿ8ÊæÆ¾¥-
-Msquid:S1481"*Remove this unused "list3" local variable.(Ã¤ßÏúÿÿÿÿ8üÛêœ-
-^squid:S2259"@A "NullPointerException" could be thrown; "ll" is nullable here.(Æ’Áú8ñ°Ó¾¥-
+asquid:S1854">Remove this useless assignment to local variable "maxResults".(ÕèíÂıÿÿÿÿ8ÛùÄ¾¥-
 Wsquid:S1854":Remove this useless assignment to local variable "userId".(ô”m8ÛùÄ¾¥-
-Rsquid:S1481"/Remove this unused "maxResults" local variable.(ÕèíÂıÿÿÿÿ8ÛùÄ¾¥-
-Hsquid:S1481"+Remove this unused "userId" local variable.(ô”m8ÛùÄ¾¥-
+Wsquid:S1854"9Remove this useless assignment to local variable "list2".(ªÒÕ¡8üÛêœ-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(˜—ß8ÛùÄ¾¥-
+Ssquid:S1481"0Remove this unused "firstResult" local variable.(†ã•ôûÿÿÿÿ8ÛùÄ¾¥-
