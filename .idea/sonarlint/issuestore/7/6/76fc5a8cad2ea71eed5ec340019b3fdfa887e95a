@@ -1,0 +1,37 @@
+
+‰ squid:ForLoopCounterChangedCheckJ"XRefactor the code in order to not assign to this loop counter from within the loop body.(–«ä°ûÿÿÿÿ
+‰ squid:ForLoopCounterChangedCheckQ"XRefactor the code in order to not assign to this loop counter from within the loop body.(–«ä°ûÿÿÿÿ
+Dsquid:S4274u"(Replace this assert with a proper check.(øøÆöüÿÿÿÿ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ØØ¹Üúÿÿÿÿ
+gsquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(¹ç·žúÿÿÿÿ
+bsquid:CommentedOutCodeLine>"<This block of commented-out lines of code should be removed.(ì—¨‡
+bsquid:CommentedOutCodeLine@"<This block of commented-out lines of code should be removed.(Ë¿Žö
+N
+squid:S106:"9Replace this use of System.out or System.err by a logger.(ñ›ù
+O
+squid:S106W"9Replace this use of System.out or System.err by a logger.(ÿÑð
+T
+squid:S106Y"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+N
+squid:S106]"9Replace this use of System.out or System.err by a logger.(Û´±G
+T
+squid:S106_"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+O
+squid:S106d"9Replace this use of System.out or System.err by a logger.(É…à
+T
+squid:S106e"9Replace this use of System.out or System.err by a logger.(´€ßŒûÿÿÿÿ
+T
+squid:S106f"9Replace this use of System.out or System.err by a logger.(îÕ¦¨ýÿÿÿÿ
+T
+squid:S106g"9Replace this use of System.out or System.err by a logger.(Ø–ªùÿÿÿÿ
+T
+squid:S106z"9Replace this use of System.out or System.err by a logger.(¹³Ðýÿÿÿÿ
+O
+squid:S106{"9Replace this use of System.out or System.err by a logger.(ª©Ý¤
+Csquid:S1481"'Remove this unused "id" local variable.(¦˜™ªøÿÿÿÿ
+?squid:S1481"(Remove this unused "ids" local variable.(¾×å“
+Bsquid:S1481<"+Remove this unused "bytes2" local variable.(¾üûÿ
+Nsquid:S1854"7Remove this useless assignment to local variable "ids".(¾×å“
+Rsquid:S1854"6Remove this useless assignment to local variable "id".(¦˜™ªøÿÿÿÿ
+Qsquid:S1854<":Remove this useless assignment to local variable "bytes2".(¾üûÿ
+:squid:S21194"Save and re-use this "Random".(®ø»›þÿÿÿÿ
