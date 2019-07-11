@@ -1,0 +1,4 @@
+
+Wsquid:S1118":Add a private constructor to hide the implicit public one.(§É8‹ÿ¢ø½-
+Msquid:S1172"*Remove this unused method parameter "old".(¾äøıÿÿÿÿ8ïÀ©ø½-
+Isquid:S1168"+Return an empty collection instead of null.(¥¹ï8ïÀ©ø½-

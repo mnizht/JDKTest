@@ -1,0 +1,14 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(”äÙóıÿÿÿÿ8»­åø½-
+V
+squid:S106_"9Replace this use of System.out or System.err by a logger.(ˆÀŠ—8ğÀßø½-
+hsquid:S22592"EA "NullPointerException" could be thrown; "idField" is nullable here.(±®È»ùÿÿÿÿ8Æù½-
+asquid:S2259I"CA "NullPointerException" could be thrown; "preId" is nullable here.(©Ö˜à8 š’ù½-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(€†­ğ8Ùáæø½-
+fsquid:S2259D"CA "NullPointerException" could be thrown; "preId" is nullable here.(­ßÀÎüÿÿÿÿ8 š’ù½-
+isquid:S22599"FA "NullPointerException" could be thrown; "pidField" is nullable here.(¡ßáÖûÿÿÿÿ8ÿ€’ù½-
+psquid:S3776&"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ˆÉÈ8ÃÎ’ù½-
+U
+squid:S106J"9Replace this use of System.out or System.err by a logger.(Ãğô8ğÀßø½-
