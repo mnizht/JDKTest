@@ -37,3 +37,11 @@ X
 (src/cn/zhuht/jdk8test/pojo/NodeBase.java,6\f\6fff14b52d13c3a51f8ba41dd615feb5fc2752d2
 \
 ,src/cn/zhuht/jdk8test/util/NodeSortMain.java,4\0\40b687d6b654a4f91306911079244758eab7733a
+e
+5src/cn/zhuht/jdk8test/collection/CollectionsTest.java,4\b\4bc67a7fbcbe5afff4c6dd5d91ff0415f336d85c
+V
+&src/cn/zhuht/demo/ParentInfoParam.java,9\5\954cfc2b89444cb8ebd55e7529b8d3bae7279c96
+`
+0src/cn/zhuht/jdk8test/datetime/DateTimeTest.java,c\f\cf1471edd5464f50737d9a7d8b82f0a566ee67de
+e
+5src/cn/zhuht/jdk8test/datetime/LocalDateTimeTest.java,b\3\b3933a20c8ae91c0cfea421f50ed90b6b73b8f09

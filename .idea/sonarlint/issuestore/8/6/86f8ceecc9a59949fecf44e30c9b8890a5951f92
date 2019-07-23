@@ -1,4 +1,11 @@
 
-Wsquid:S1118":Add a private constructor to hide the implicit public one.(§É8‹ÿ¢ø½-
-Msquid:S1172"*Remove this unused method parameter "old".(¾äøıÿÿÿÿ8ïÀ©ø½-
-Isquid:S1168"+Return an empty collection instead of null.(¥¹ï8ïÀ©ø½-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ÿ¶ãÑşÿÿÿÿ8­Éğı½-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(·—‚—ÿÿÿÿÿ8›Ûñı½-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(”ä±ñûÿÿÿÿ8ËÚğı½-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(º¬ïè8²ãòı½-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ŸÓÓ¦şÿÿÿÿ8›Ûñı½-
