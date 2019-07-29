@@ -45,3 +45,7 @@ V
 0src/cn/zhuht/jdk8test/datetime/DateTimeTest.java,c\f\cf1471edd5464f50737d9a7d8b82f0a566ee67de
 e
 5src/cn/zhuht/jdk8test/datetime/LocalDateTimeTest.java,b\3\b3933a20c8ae91c0cfea421f50ed90b6b73b8f09
+]
+-src/cn/zhuht/jdk8test/collection/SetTest.java,2\c\2c101fa3b946f854a539bdaf5e38953eaa23d4fc
+^
+.src/cn/zhuht/jdk8test/pattern/PatternTest.java,4\c\4c39bbcbbe8e25a84a8f30f2ac4d6f38e47e3706

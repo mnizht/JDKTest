@@ -21,6 +21,7 @@ public class CollectionsTest {
 
     System.out.println(set1.containsAll(set2));
     System.out.println(set1.retainAll(set2));
+    System.out.println(set1);
 
   }
 }
