@@ -1,10 +1,8 @@
 
-Osquid:S1854"8Remove this useless assignment to local variable "dog1".(æçá”
+@squid:S1481")Remove this unused "dog1" local variable.(æçá”
 Fsquid:S1481"*Remove this unused "user1" local variable.(¤–»çıÿÿÿÿ
+N
+squid:S106"9Replace this use of System.out or System.err by a logger.(ƒÚáB
 `squid:UselessImportCheck"7Remove this unused import 'java.util.stream.Collector'.(ß‹ÎÓøÿÿÿÿ
 N
 squid:S106"9Replace this use of System.out or System.err by a logger.(âùÏ=
-@squid:S1481")Remove this unused "dog1" local variable.(æçá”
-Usquid:S1854"9Remove this useless assignment to local variable "user1".(¤–»çıÿÿÿÿ
-N
-squid:S106"9Replace this use of System.out or System.err by a logger.(ƒÚáB

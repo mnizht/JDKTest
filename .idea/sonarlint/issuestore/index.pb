@@ -49,3 +49,7 @@ e
 -src/cn/zhuht/jdk8test/collection/SetTest.java,2\c\2c101fa3b946f854a539bdaf5e38953eaa23d4fc
 ^
 .src/cn/zhuht/jdk8test/pattern/PatternTest.java,4\c\4c39bbcbbe8e25a84a8f30f2ac4d6f38e47e3706
+`
+0src/cn/zhuht/jdk8test/optional/OptionalTest.java,e\5\e599552765045b8c536b344603722c579ce4f9c7
+`
+0src/cn/zhuht/jdk8test/operator/OperatorTest.java,4\f\4fe89ad60f2a6e2acf45790b1b0a0e1f539d0a38
