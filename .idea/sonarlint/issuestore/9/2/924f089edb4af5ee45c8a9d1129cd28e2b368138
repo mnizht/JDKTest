@@ -1,51 +1,51 @@
 
-Ysquid:S1854G"6Remove this useless assignment to local variable "s1".(—ºµÉúÿÿÿÿ8âšğºŸ-
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(•ñÙ8ƒ¤ñµ-
-T
-squid:S106="9Replace this use of System.out or System.err by a logger.(ªºè€ùÿÿÿÿ
 U
 squid:S106S"9Replace this use of System.out or System.err by a logger.(²¹â8âšğºŸ-
-N
-squid:S1068"9Replace this use of System.out or System.err by a logger.(ÆÈ˜F
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¼˜Áüşÿÿÿÿ8µ‚ó¤-
-O
-squid:S1064"9Replace this use of System.out or System.err by a logger.(¿ò­
-O
-squid:S1065"9Replace this use of System.out or System.err by a logger.(¡¦’²
-isquid:CommentedOutCodeLine%"<This block of commented-out lines of code should be removed.(êåÌã8âšğºŸ-
-U
-squid:S106+"9Replace this use of System.out or System.err by a logger.(Û´±G8âšğºŸ-
-O
-squid:S106;"9Replace this use of System.out or System.err by a logger.(â¤õÄ
-O
-squid:S106<"9Replace this use of System.out or System.err by a logger.(¡Øñ³
-O
-squid:S106?"9Replace this use of System.out or System.err by a logger.(êùÆÁ
-[
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ê»ñºŸ-
-bsquid:UselessImportCheck"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8şöºŸ-
-Vsquid:S1854"8Remove this useless assignment to local variable "list".(ŠŒÖ8Ä¥ôºŸ-
-V
-squid:S1066"9Replace this use of System.out or System.err by a logger.(ë›çş8âšğºŸ-
-Jsquid:S1481G"'Remove this unused "s1" local variable.(—ºµÉúÿÿÿÿ8âšğºŸ-
-O
-squid:S1063"9Replace this use of System.out or System.err by a logger.(Ô²Áø
+Ysquid:S1854G"6Remove this useless assignment to local variable "s1".(—ºµÉúÿÿÿÿ8âšğºŸ-
+1squid:S1220""Move this file to a named package.
 [
 squid:S106B"9Replace this use of System.out or System.err by a logger.(¤òàíûÿÿÿÿ8âšğºŸ-
+Jsquid:S1481G"'Remove this unused "s1" local variable.(—ºµÉúÿÿÿÿ8âšğºŸ-
+U
+squid:S106K"9Replace this use of System.out or System.err by a logger.(¨Ğû8âšğºŸ-
+bsquid:UselessImportCheck"2Remove this unused import 'java.util.Collections'.(¢³ïÓşÿÿÿÿ8şöºŸ-
+U
+squid:S106+"9Replace this use of System.out or System.err by a logger.(Û´±G8âšğºŸ-
+N
+squid:S1068"9Replace this use of System.out or System.err by a logger.(ÆÈ˜F
 V
-squid:S106@"9Replace this use of System.out or System.err by a logger.(¶ª£À8âšğºŸ-
+squid:S106Z"9Replace this use of System.out or System.err by a logger.(şõ‘›8Á°¡±¨-
+Vsquid:S1854"8Remove this useless assignment to local variable "list".(ŠŒÖ8Ä¥ôºŸ-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ê»ñºŸ-
+Gsquid:S1481")Remove this unused "list" local variable.(ŠŒÖ8Ä¥ôºŸ-
 O
-squid:S106>"9Replace this use of System.out or System.err by a logger.(ÊÃ
+squid:S1062"9Replace this use of System.out or System.err by a logger.(È•ÌØ
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¼˜Áüşÿÿÿÿ8µ‚ó¤-
+[
+squid:S1069"9Replace this use of System.out or System.err by a logger.(ÚúÑòşÿÿÿÿ8âšğºŸ-
+O
+squid:S1064"9Replace this use of System.out or System.err by a logger.(¿ò­
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(•ñÙ8ƒ¤ñµ-
+V
+squid:S1066"9Replace this use of System.out or System.err by a logger.(ë›çş8âšğºŸ-
+isquid:CommentedOutCodeLine%"<This block of commented-out lines of code should be removed.(êåÌã8âšğºŸ-
+_squid:UselessImportCheck"4Remove this unused import 'java.util.stream.Stream'.(ó÷”8¨¶ ±¨-
 [
 squid:S106-"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8âšğºŸ-
 O
-squid:S1062"9Replace this use of System.out or System.err by a logger.(È•ÌØ
-U
-squid:S106K"9Replace this use of System.out or System.err by a logger.(¨Ğû8âšğºŸ-
-Gsquid:S1481")Remove this unused "list" local variable.(ŠŒÖ8Ä¥ôºŸ-
-_squid:UselessImportCheck"4Remove this unused import 'java.util.stream.Stream'.(ó÷”8¨¶ ±¨-
-[
-squid:S1069"9Replace this use of System.out or System.err by a logger.(ÚúÑòşÿÿÿÿ8âšğºŸ-
-1squid:S1220""Move this file to a named package.
+squid:S1065"9Replace this use of System.out or System.err by a logger.(¡¦’²
+O
+squid:S106>"9Replace this use of System.out or System.err by a logger.(ÊÃ
 V
-squid:S106Z"9Replace this use of System.out or System.err by a logger.(şõ‘›8Á°¡±¨-
+squid:S106@"9Replace this use of System.out or System.err by a logger.(¶ª£À8âšğºŸ-
+O
+squid:S106;"9Replace this use of System.out or System.err by a logger.(â¤õÄ
+O
+squid:S106?"9Replace this use of System.out or System.err by a logger.(êùÆÁ
+O
+squid:S1063"9Replace this use of System.out or System.err by a logger.(Ô²Áø
+O
+squid:S106<"9Replace this use of System.out or System.err by a logger.(¡Øñ³
+T
+squid:S106="9Replace this use of System.out or System.err by a logger.(ªºè€ùÿÿÿÿ
