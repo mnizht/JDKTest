@@ -6,12 +6,9 @@
     <content url="file://$MODULE_DIR$/../../src/test" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="JDKTest.main" />
-    <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Gradle: com.alibaba:fastjson:1.2.7" level="project" />
     <orderEntry type="library" name="Gradle: org.projectlombok:lombok:1.18.4" level="project" />
-    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-all:1.3" level="project" />
-    <orderEntry type="library" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
   </component>
   <component name="TestModuleProperties" production-module="JDKTest.main" />
 </module>
