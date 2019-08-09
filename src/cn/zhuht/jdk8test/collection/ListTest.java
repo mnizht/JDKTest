@@ -11,7 +11,10 @@ import java.util.List;
  **/
 public class ListTest {
   public static void main(String[] args) {
-    method2();
+    String[] strs = {"孙悟空","猪八戒","沙和尚","唐僧","蜘蛛精","白骨精"};
+    List<String> stringList = Arrays.asList("孙悟空","猪八戒","沙和尚","唐僧","蜘蛛精","白骨精");
+    System.out.println(stringList.get(-1));
+
   }
 
   private static void method1() {
