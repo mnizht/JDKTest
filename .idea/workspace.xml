@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="744a943f-11c7-4503-8512-539d5858447f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/JDKTest.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/JDKTest.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/JDKTest.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/JDKTest.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDKTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDKTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeSort1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeSort1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeSort2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeSort2.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -83,10 +79,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/operator/OperatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="61" column="60" selection-start-line="61" selection-start-column="60" selection-end-line="61" selection-end-column="60" />
+            <state relative-caret-position="405">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/collection/CollectionsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -95,43 +100,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/collection/TreeSetTest.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/collection/ListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+            <state relative-caret-position="918">
+              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/User.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/lambda/LambdaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state relative-caret-position="135">
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#550#551#0" expanded="true" />
+                <element signature="e#571#572#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/util/RadixUtils.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeSort2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1925">
-              <caret line="77" column="6" selection-start-line="77" selection-start-column="6" selection-end-line="84" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/Dog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+            <state relative-caret-position="351">
+              <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,19 +140,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeSort1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeSort2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="270">
+              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,10 +152,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeSort1.java">
+        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="297">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/collection/ChineseSortTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -248,9 +251,7 @@
         <option value="$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/Node.java" />
         <option value="$PROJECT_DIR$/src/cn/zhuht/jdk8test/util/SortNodeList.java" />
         <option value="$PROJECT_DIR$/src/cn/zhuht/jdk8test/util/NodeSortMain.java" />
-        <option value="$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeSort1.java" />
         <option value="$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeBase.java" />
-        <option value="$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeSort2.java" />
         <option value="$PROJECT_DIR$/src/cn/zhuht/jdk8test/util/NodeSort.java" />
         <option value="$PROJECT_DIR$/src/cn/zhuht/demo/ParentInfoParam.java" />
         <option value="$PROJECT_DIR$/src/cn/zhuht/jdk8test/collection/CollectionsTest.java" />
@@ -260,6 +261,8 @@
         <option value="$PROJECT_DIR$/src/cn/zhuht/jdk8test/operator/OperatorTest.java" />
         <option value="$PROJECT_DIR$/src/cn/zhuht/jdk8test/collection/ChineseSortTest.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeSort2.java" />
+        <option value="$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeSort1.java" />
       </list>
     </option>
   </component>
@@ -282,7 +285,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,23 +301,20 @@
               <item name="JDKTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="JDKTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="zhuht" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JDKTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="JDKTest" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="zhuht" type="462c0819:PsiDirectoryNode" />
-              <item name="jdk8test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JDKTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -346,7 +345,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ChineseSortTest">
+  <component name="RunManager" selected="Application.LambdaTest">
     <configuration name="ChineseSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.zhuht.jdk8test.collection.ChineseSortTest" />
       <module name="JDKTest.main" />
@@ -360,12 +359,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zhuht.jdk8test.collection.CollectionsTest" />
+    <configuration name="LambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhuht.jdk8test.lambda.LambdaTest" />
       <module name="JDKTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.zhuht.jdk8test.collection.*" />
+          <option name="PATTERN" value="cn.zhuht.jdk8test.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -413,19 +412,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CollectionsTest" />
       <item itemvalue="Application.SetTest" />
       <item itemvalue="Application.PatternTest" />
       <item itemvalue="Application.OperatorTest" />
       <item itemvalue="Application.ChineseSortTest" />
+      <item itemvalue="Application.LambdaTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaTest" />
         <item itemvalue="Application.ChineseSortTest" />
         <item itemvalue="Application.OperatorTest" />
         <item itemvalue="Application.PatternTest" />
         <item itemvalue="Application.SetTest" />
-        <item itemvalue="Application.CollectionsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -525,7 +524,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158210000" />
+    <option name="totallyTimeSpent" value="158444000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -536,9 +535,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="432" y="263" width="1629" height="1001" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.3611111" visible="true" weight="0.277884" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.3611111" visible="true" weight="0.32815847" />
       <window_info id="Structure" order="1" sideWeight="0.6388889" side_tool="true" weight="0.18776824" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -556,9 +556,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32977462" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.36654803" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.31444445" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50031865" side_tool="true" visible="true" weight="0.24199288" />
-      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49968132" weight="0.32977462" />
+      <window_info active="true" anchor="bottom" id="Messages" order="12" sideWeight="0.49968132" visible="true" weight="0.3288889" />
       <window_info active="true" anchor="bottom" id="Build" order="13" sideWeight="0.49968132" visible="true" weight="0.24199288" />
       <window_info anchor="bottom" id="SonarLint" order="14" />
       <window_info anchor="bottom" id="Reviews" order="15" />
@@ -689,18 +689,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/collection/ListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="918">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/lambda/LambdaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="135">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#550#551#0" expanded="true" />
@@ -790,16 +792,6 @@
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/time/LocalDateTime.java" />
-    <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/util/NodeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="567">
@@ -812,8 +804,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/collection/CollectionsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="324">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -893,8 +885,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/operator/OperatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="405">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -911,28 +903,8 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java" />
     <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/collection/ChineseSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
+        <state relative-caret-position="324">
           <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeSort2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeSort1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -943,6 +915,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeSort2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeSort1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
