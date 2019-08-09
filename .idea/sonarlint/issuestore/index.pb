@@ -53,3 +53,7 @@ e
 0src/cn/zhuht/jdk8test/optional/OptionalTest.java,e\5\e599552765045b8c536b344603722c579ce4f9c7
 `
 0src/cn/zhuht/jdk8test/operator/OperatorTest.java,4\f\4fe89ad60f2a6e2acf45790b1b0a0e1f539d0a38
+e
+5src/cn/zhuht/jdk8test/collection/ChineseSortTest.java,3\0\30d0441e43269ff535c7befdbffe38a99d41d905
+_
+/src/cn/zhuht/jdk8test/lambda/ConverterTest.java,b\7\b7e097d5723146c2d3ee6e3ee74189bc101642f8
