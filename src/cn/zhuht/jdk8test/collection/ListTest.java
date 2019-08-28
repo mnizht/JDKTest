@@ -11,9 +11,11 @@ import java.util.List;
  **/
 public class ListTest {
   public static void main(String[] args) {
-    String[] strs = {"孙悟空","猪八戒","沙和尚","唐僧","蜘蛛精","白骨精"};
-    List<String> stringList = Arrays.asList("孙悟空","猪八戒","沙和尚","唐僧","蜘蛛精","白骨精");
-    System.out.println(stringList.get(-1));
+//    String[] strs = {"孙悟空","猪八戒","沙和尚","唐僧","蜘蛛精","白骨精"};
+//    List<String> stringList = Arrays.asList("孙悟空","猪八戒","沙和尚","唐僧","蜘蛛精","白骨精");
+//    System.out.println(stringList.get(-1));
+
+    method3();
 
   }
 
@@ -51,5 +53,17 @@ public class ListTest {
     Integer aa = 1;
     Integer bb = 1;
     System.out.println(aa.equals(bb));
+  }
+
+  private static void method3(){
+    List<String> list = new ArrayList<>();
+    list.add("aa");
+    list.add("bb");
+    List<String> list2 = new ArrayList<>();
+    list2.add("cc");
+    list2.add("bb");
+
+    list.removeAll(list2);
+    System.out.println(list);
   }
 }

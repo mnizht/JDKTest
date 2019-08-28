@@ -97,3 +97,5 @@ X
 ,src/cn/zhuht/jdk8test/base64/Base64Test.java,f\e\fee9d410d2ad4ba5956c4bd62d6d3c627b163b30
 r
 Bsrc/cn/zhuht/jdk8test/completablefuture/CompletableFutureTest.java,3\8\388f540a039dc8b6a02ef187b072478d01bd235d
+Q
+!src/cn/zhuht/demo/StringDemo.java,8\2\82fdf68313d8ad4ed686667e65af33c82579a3a7
