@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="744a943f-11c7-4503-8512-539d5858447f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/cn/zhuht/demo/ObjectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/zhuht/demo/StringDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bc67a7fbcbe5afff4c6dd5d91ff0415f336d85c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/b/4bc67a7fbcbe5afff4c6dd5d91ff0415f336d85c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fff14b52d13c3a51f8ba41dd615feb5fc2752d2" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6fff14b52d13c3a51f8ba41dd615feb5fc2752d2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/9448b00d743bdb8f8798457919317c9110ec3bc0" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/4/9448b00d743bdb8f8798457919317c9110ec3bc0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b32287167ad0fc4d3f44392ac07e32f5ebc2b657" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b32287167ad0fc4d3f44392ac07e32f5ebc2b657" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf1471edd5464f50737d9a7d8b82f0a566ee67de" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/f/cf1471edd5464f50737d9a7d8b82f0a566ee67de" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fee9d410d2ad4ba5956c4bd62d6d3c627b163b30" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/e/fee9d410d2ad4ba5956c4bd62d6d3c627b163b30" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zhuht/demo/ImageUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zhuht/jdk8test/util/ImageUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/cn/zhuht/jdk8test/collection/ListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cn/zhuht/jdk8test/collection/ListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/zhuht/jdk8test/collection/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zhuht/jdk8test/collection/ListTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -89,36 +80,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/datetime/DateTimeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/collection/ListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="54" column="12" selection-start-line="54" selection-start-column="12" selection-end-line="54" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/demo/StringDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/collection/CollectionsTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
@@ -130,11 +91,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cn/zhuht/demo/ObjectTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="21" column="35" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="35" />
+            <state relative-caret-position="503">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/util/ImageUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="415">
+              <caret line="158" column="25" lean-forward="true" selection-start-line="158" selection-start-column="25" selection-end-line="158" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/demo/ImageUtilTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="307">
+              <caret line="39" column="84" lean-forward="true" selection-start-line="39" selection-start-column="84" selection-end-line="39" selection-end-column="84" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,54 +129,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="500">
               <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeSort2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeSort1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/NodeBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/collection/ChineseSortTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -228,6 +165,7 @@
       <find>toString</find>
       <find>schnauzer</find>
       <find>'孙悟空','猪八戒','沙和尚','唐僧','蜘蛛精','白骨精'</find>
+      <find>start</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -237,8 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/cn/zhuht/JDK8Test/MathReference/Supplier.java" />
-        <option value="$PROJECT_DIR$/src/cn/zhuht/JDK8Test/MathReference/MathReferenceTest.java" />
         <option value="$PROJECT_DIR$/src/cn/zhuht/JDK8Test/FunctionalInterface/FunctionalInterfaceTest.java" />
         <option value="$PROJECT_DIR$/src/cn/zhuht/JDK8Test/DefaultMethod/FourWheeler.java" />
         <option value="$PROJECT_DIR$/src/cn/zhuht/JDK8Test/DefaultMethod/Vehicle.java" />
@@ -288,6 +224,8 @@
         <option value="$PROJECT_DIR$/src/cn/zhuht/jdk8test/collection/ListTest.java" />
         <option value="$PROJECT_DIR$/src/cn/zhuht/demo/StringDemo.java" />
         <option value="$PROJECT_DIR$/src/cn/zhuht/demo/ObjectTest.java" />
+        <option value="$PROJECT_DIR$/src/cn/zhuht/jdk8test/util/ImageUtil.java" />
+        <option value="$PROJECT_DIR$/src/cn/zhuht/demo/ImageUtilTest.java" />
       </list>
     </option>
   </component>
@@ -298,10 +236,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-145" />
-    <option name="y" value="-20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -359,7 +297,7 @@
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="zhuht" type="462c0819:PsiDirectoryNode" />
               <item name="jdk8test" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -395,7 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ObjectTest">
+  <component name="RunManager" selected="Application.ImageUtilTest">
     <configuration name="CollectionsTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.zhuht.jdk8test.collection.CollectionsTest" />
       <module name="JDKTest.main" />
@@ -409,12 +347,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zhuht.jdk8test.lambda.LambdaTest" />
+    <configuration name="ImageUtilTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhuht.demo.ImageUtilTest" />
       <module name="JDKTest.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.zhuht.jdk8test.lambda.*" />
+          <option name="PATTERN" value="cn.zhuht.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -462,19 +400,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LambdaTest" />
       <item itemvalue="Application.ListTest" />
       <item itemvalue="Application.StringDemo" />
       <item itemvalue="Application.CollectionsTest" />
       <item itemvalue="Application.ObjectTest" />
+      <item itemvalue="Application.ImageUtilTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ImageUtilTest" />
         <item itemvalue="Application.ObjectTest" />
         <item itemvalue="Application.CollectionsTest" />
         <item itemvalue="Application.StringDemo" />
         <item itemvalue="Application.ListTest" />
-        <item itemvalue="Application.LambdaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -541,7 +479,7 @@
       <workItem from="1565339712651" duration="3066000" />
       <workItem from="1566804173980" duration="1463000" />
       <workItem from="1566869875606" duration="1307000" />
-      <workItem from="1566956160090" duration="1442000" />
+      <workItem from="1566956160090" duration="9580000" />
     </task>
     <servers />
   </component>
@@ -578,7 +516,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165934000" />
+    <option name="totallyTimeSpent" value="174072000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -602,19 +540,19 @@
       <window_info id="Build Variants" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24777777" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.37" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24777777" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.44555557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" x="9" y="749" width="1864" height="246" id="TODO" order="6" weight="0.27333334" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32977462" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.39777777" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.19111112" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50031865" side_tool="true" weight="0.24111111" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49968132" weight="0.3288889" />
       <window_info anchor="bottom" id="Build" order="13" sideWeight="0.49968132" weight="0.24199288" />
-      <window_info anchor="bottom" id="SonarLint" order="14" weight="0.44497043" />
+      <window_info anchor="bottom" id="SonarLint" order="14" weight="0.44444445" />
       <window_info anchor="bottom" id="Reviews" order="15" />
       <window_info anchor="bottom" id="TypeScript" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -634,49 +572,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/functionalinterface/FunctionalInterfaceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/defaultmethod/InterfaceTestClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/defaultmethod/FourWheeler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/UUID.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/concurrent/CompletableFuture.java" />
-    <entry file="file://$PROJECT_DIR$/src/cn/zhuht/JDK8Test/Collection.java" />
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
-    <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/genericity/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/pojo/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1001,8 +896,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/cn/zhuht/demo/ObjectTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="35" />
+        <state relative-caret-position="503">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/awt/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="198" column="40" selection-start-line="198" selection-start-column="28" selection-end-line="198" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/awt/image/BufferedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="98" column="28" selection-start-line="98" selection-start-column="28" selection-end-line="98" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="214" column="29" selection-start-line="214" selection-start-column="29" selection-end-line="214" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="218" selection-start-line="218" selection-end-line="218" />
+          <folding>
+            <element signature="e#8081#8082#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="2034" selection-start-line="2034" selection-end-line="2034" />
+          <folding>
+            <element signature="e#83250#83251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="508" selection-start-line="508" selection-end-line="508" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="62" column="26" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="610" selection-start-line="610" selection-end-line="610" />
+          <folding>
+            <element signature="e#24363#24364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/zhuht/jdk8test/util/ImageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="158" column="25" lean-forward="true" selection-start-line="158" selection-start-column="25" selection-end-line="158" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cn/zhuht/demo/ImageUtilTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="39" column="84" lean-forward="true" selection-start-line="39" selection-start-column="84" selection-end-line="39" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
