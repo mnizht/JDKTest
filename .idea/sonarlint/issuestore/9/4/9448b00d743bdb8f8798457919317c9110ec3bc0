@@ -1,24 +1,24 @@
 
-isquid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.(˜—ß8îÇ½²Æ-
+Hsquid:S1481 "+Remove this unused "userId" local variable.(ô”m8îÇ½²Æ-
 V
 squid:S106'"9Replace this use of System.out or System.err by a logger.(Æ’Áú8îÇ½²Æ-
 ]squid:UnusedPrivateMethod+",Remove this unused private "method2" method.(ú¡á™úÿÿÿÿ8š§›¬Ç-
-[
-squid:S1067"9Replace this use of System.out or System.err by a logger.(±šÈ‘üÿÿÿÿ8ö—ÚÆ-
-V
-squid:S1063"9Replace this use of System.out or System.err by a logger.(•È®À8œÑ²Æ-
-Gsquid:S1481!")Remove this unused "size" local variable.(ÔÀª²8îÇ½²Æ-
+Rsquid:S1481#"/Remove this unused "maxResults" local variable.(ÕèíÂýÿÿÿÿ8îÇ½²Æ-
+isquid:CommentedOutCodeLine$"<This block of commented-out lines of code should be removed.(˜—ß8îÇ½²Æ-
 ^squid:S2259'"@A "NullPointerException" could be thrown; "ll" is nullable here.(Æ’Áú8îÇ½²Æ-
-Msquid:S1481"*Remove this unused "list3" local variable.(Ã¤ßÏúÿÿÿÿ8îÇ½²Æ-
-Ssquid:S1481""0Remove this unused "firstResult" local variable.(†ã•ôûÿÿÿÿ8îÇ½²Æ-
 Hsquid:S1481"*Remove this unused "list2" local variable.(ªÒÕ¡8îÇ½²Æ-
+Ssquid:S1481""0Remove this unused "firstResult" local variable.(†ã•ôûÿÿÿÿ8îÇ½²Æ-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ãîÓÿÿÿÿÿ8îÇ½²Æ-
+Msquid:S1481"*Remove this unused "list3" local variable.(Ã¤ßÏúÿÿÿÿ8îÇ½²Æ-
 ]squid:UnusedPrivateMethod",Remove this unused private "method1" method.(±³Ñÿþÿÿÿÿ8îÇ½²Æ-
-Hsquid:S1481 "+Remove this unused "userId" local variable.(ô”m8îÇ½²Æ-
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(³±‘Š8ÿ¬ÃæÌ-
-[
-squid:S106("9Replace this use of System.out or System.err by a logger.(Æì° úÿÿÿÿ8îÇ½²Æ-
-Jsquid:S1612'",Replace this lambda with a method reference.(Æ’Áú8îÇ½²Æ-
 [
 squid:S106C"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8ïç¾æÌ-
-Rsquid:S1481#"/Remove this unused "maxResults" local variable.(ÕèíÂýÿÿÿÿ8îÇ½²Æ-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ãîÓÿÿÿÿÿ8îÇ½²Æ-
+Gsquid:S1481!")Remove this unused "size" local variable.(ÔÀª²8îÇ½²Æ-
+V
+squid:S1063"9Replace this use of System.out or System.err by a logger.(•È®À8œÑ²Æ-
+[
+squid:S106("9Replace this use of System.out or System.err by a logger.(Æì° úÿÿÿÿ8îÇ½²Æ-
+[
+squid:S1067"9Replace this use of System.out or System.err by a logger.(±šÈ‘üÿÿÿÿ8ö—ÚÆ-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(³±‘Š8ÿ¬ÃæÌ-
+Jsquid:S1612'",Replace this lambda with a method reference.(Æ’Áú8îÇ½²Æ-

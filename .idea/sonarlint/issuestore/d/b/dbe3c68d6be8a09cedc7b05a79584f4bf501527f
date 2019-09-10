@@ -1,0 +1,9 @@
+
+[
+squid:S1066"9Replace this use of System.out or System.err by a logger.(–¼öœùÿÿÿÿ8à£á¿Í-
+W
+squid:S106œ"9Replace this use of System.out or System.err by a logger.(ú±‚£8–¢ä¿Í-
+W
+squid:S106°"9Replace this use of System.out or System.err by a logger.(ÕÑÆ8È‡ó¾Í-
+usquid:S3776!"RRefactor this method to reduce its Cognitive Complexity from 43 to the 15 allowed.(‰½˜Ïùÿÿÿÿ8¼Íõ½Í-
+Zsquid:S1068"7Remove this unused "PICTRUE_FORMATE_JPG" private field.(Ç¬•Íùÿÿÿÿ8¼Íõ½Í-

@@ -1,36 +1,36 @@
 
-N
-squid:S106 "9Replace this use of System.out or System.err by a logger.(¼ÏÆu
 O
-squid:S106)"9Replace this use of System.out or System.err by a logger.(Èøà
-N
-squid:S106""9Replace this use of System.out or System.err by a logger.(Ë¿ß(
+squid:S1063"9Replace this use of System.out or System.err by a logger.(“ƒôï
+T
+squid:S106,"9Replace this use of System.out or System.err by a logger.(Ô„¢øÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÈŒ×Òøÿÿÿÿ
+T
+squid:S106("9Replace this use of System.out or System.err by a logger.(ÒƒËşÿÿÿÿ
 T
 squid:S1064"9Replace this use of System.out or System.err by a logger.(…ÂìÜıÿÿÿÿ
 N
-squid:S106'"9Replace this use of System.out or System.err by a logger.(ãŞ—l
-T
-squid:S106,"9Replace this use of System.out or System.err by a logger.(Ô„¢øÿÿÿÿ
+squid:S106""9Replace this use of System.out or System.err by a logger.(Ë¿ß(
 O
-squid:S106"9Replace this use of System.out or System.err by a logger.(µøØÕ
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÈŒ×Òøÿÿÿÿ
+squid:S106)"9Replace this use of System.out or System.err by a logger.(Èøà
 O
 squid:S106&"9Replace this use of System.out or System.err by a logger.(˜šó¥
 O
 squid:S106<"9Replace this use of System.out or System.err by a logger.(³®—û
 T
 squid:S106$"9Replace this use of System.out or System.err by a logger.(ú·Æ™ùÿÿÿÿ
-O
-squid:S1063"9Replace this use of System.out or System.err by a logger.(“ƒôï
-bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¶²¾
 T
 squid:S106-"9Replace this use of System.out or System.err by a logger.(¦÷á…ıÿÿÿÿ
-O
-squid:S1060"9Replace this use of System.out or System.err by a logger.(¢°´
 T
 squid:S106>"9Replace this use of System.out or System.err by a logger.(æáúÿÿÿÿ
 T
-squid:S106("9Replace this use of System.out or System.err by a logger.(ÒƒËşÿÿÿÿ
-T
 squid:S106:"9Replace this use of System.out or System.err by a logger.(«í˜Îüÿÿÿÿ
+bsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¶²¾
+N
+squid:S106'"9Replace this use of System.out or System.err by a logger.(ãŞ—l
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(µøØÕ
+O
+squid:S1060"9Replace this use of System.out or System.err by a logger.(¢°´
+N
+squid:S106 "9Replace this use of System.out or System.err by a logger.(¼ÏÆu

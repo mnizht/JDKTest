@@ -99,3 +99,9 @@ r
 Bsrc/cn/zhuht/jdk8test/completablefuture/CompletableFutureTest.java,3\8\388f540a039dc8b6a02ef187b072478d01bd235d
 Q
 !src/cn/zhuht/demo/StringDemo.java,8\2\82fdf68313d8ad4ed686667e65af33c82579a3a7
+Q
+!src/cn/zhuht/demo/ObjectTest.java,e\4\e408e9d0197c00588a6f493ef7f93a166f4bf717
+Y
+)src/cn/zhuht/jdk8test/util/ImageUtil.java,d\b\dbe3c68d6be8a09cedc7b05a79584f4bf501527f
+T
+$src/cn/zhuht/demo/ImageUtilTest.java,9\8\98315d26a14eec9053f36b2d418b1eebb14233dd
