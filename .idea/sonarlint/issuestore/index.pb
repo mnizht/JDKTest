@@ -105,3 +105,7 @@ Y
 )src/cn/zhuht/jdk8test/util/ImageUtil.java,d\b\dbe3c68d6be8a09cedc7b05a79584f4bf501527f
 T
 $src/cn/zhuht/demo/ImageUtilTest.java,9\8\98315d26a14eec9053f36b2d418b1eebb14233dd
+k
+;src/cn/zhuht/jdk8test/lambda/EmptyCollectionLambdaTest.java,1\a\1a5e32c8eba3433867dc49f260f5337f916e64e6
+\
+,src/cn/zhuht/jdk8test/lambda/ReduceTest.java,7\9\797c98522fabfaf9d75c32424dde82278c6ac546
