@@ -1,8 +1,8 @@
 
- squid:S1192""Define a constant instead of duplicating this literal "http://qiniu.sishuxuefu.com/7ead7b98-2f5f-46a4-9d11-cadd49c5c790" 3 times.(Â¾Ç…8óÂôÀÍ-
-¥squid:S1192!"Define a constant instead of duplicating this literal "http://qiniu.sishuxuefu.com/b49f258c-a848-4a2c-b275-f1ba7a35725c" 3 times.(Äá’€úÿÿÿÿ8óÂôÀÍ-
 [
 squid:S1066"9Replace this use of System.out or System.err by a logger.(ãî¹®üÿÿÿÿ8™ûßÀÍ-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(·¸¢­ùÿÿÿÿ8»ßÀÍ-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(»ğ‚¡şÿÿÿÿ8Îª§ÀÍ-
+¥squid:S1192!"Define a constant instead of duplicating this literal "http://qiniu.sishuxuefu.com/b49f258c-a848-4a2c-b275-f1ba7a35725c" 3 times.(Äá’€úÿÿÿÿ8óÂôÀÍ-
 ¥squid:S1192 "Define a constant instead of duplicating this literal "http://qiniu.sishuxuefu.com/041bb610-111e-4d45-8a26-8db733371922" 3 times.(Ö‡ÊÏşÿÿÿÿ8óÂôÀÍ-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(»ğ‚¡şÿÿÿÿ8Îª§ÀÍ-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(·¸¢­ùÿÿÿÿ8»ßÀÍ-
+ squid:S1192""Define a constant instead of duplicating this literal "http://qiniu.sishuxuefu.com/7ead7b98-2f5f-46a4-9d11-cadd49c5c790" 3 times.(Â¾Ç…8óÂôÀÍ-

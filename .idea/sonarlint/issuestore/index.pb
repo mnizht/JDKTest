@@ -109,3 +109,7 @@ k
 ;src/cn/zhuht/jdk8test/lambda/EmptyCollectionLambdaTest.java,1\a\1a5e32c8eba3433867dc49f260f5337f916e64e6
 \
 ,src/cn/zhuht/jdk8test/lambda/ReduceTest.java,7\9\797c98522fabfaf9d75c32424dde82278c6ac546
+h
+8src/cn/zhuht/jdk8test/datetime/LocalDateTimeMinTest.java,3\7\3797a8cc223e0ea2d8d049ee28752e8f98052be3
+_
+/src/cn/zhuht/jdk8test/lambda/ListToMapTest.java,7\9\7998fa5ff64a05a75d6fa7ad0416ca5d0aa7606d

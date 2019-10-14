@@ -16,11 +16,15 @@ public class LocalDateTimeTest {
     System.out.println(now.minusDays(-1));
     System.out.println(getStartDay());
     System.out.println(getEndDay());
+    System.out.println("aaaaa:"+ now.with(LocalDateTime.MIN));
+    System.out.println("MIN:" + LocalDateTime.MIN);
 
     Instant instant = Instant.parse("2100-01-01T00:00:00.000Z");
     LocalDateTime end = LocalDateTime.ofInstant(instant, ZoneId.of("Asia/Shanghai"));
+    LocalDateTime end2 = LocalDateTime.ofInstant(instant, ZoneId.systemDefault());
     System.out.println(ZoneId.systemDefault().toString());
     System.out.println(end);
+    System.out.println(end2);
 
   }
 

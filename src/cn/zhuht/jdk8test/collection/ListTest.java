@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * author zhuhaitao
@@ -15,7 +16,9 @@ public class ListTest {
 //    List<String> stringList = Arrays.asList("孙悟空","猪八戒","沙和尚","唐僧","蜘蛛精","白骨精");
 //    System.out.println(stringList.get(-1));
 
-    method3();
+//    method3();
+//    method4();
+    method5();
 
   }
 
@@ -55,7 +58,7 @@ public class ListTest {
     System.out.println(aa.equals(bb));
   }
 
-  private static void method3(){
+  private static void method3() {
     List<String> list = new ArrayList<>();
     list.add("aa");
     list.add("bb");
@@ -65,5 +68,25 @@ public class ListTest {
 
     list.removeAll(list2);
     System.out.println(list);
+  }
+
+  private static void method4() {
+    List<String> list = new ArrayList<>();
+    list.add("aaa");
+    list.add("bb");
+    list.add("c");
+    String msg = String.format("本次关闭的订单数量为:%d,关闭的订单id为:%s", list.size(), list.toString());
+    System.out.println(msg);
+  }
+
+  private static void method5(){
+    List<String> list = new ArrayList<>();
+    List<String> list2 = new ArrayList<>();
+    list2.add("aa");
+
+    System.out.println(list2.stream().filter(x->list.contains(x)).collect(Collectors.toList()));
+
+
+
   }
 }

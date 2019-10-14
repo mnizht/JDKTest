@@ -20,7 +20,8 @@ public class ListToMapTest {
     User user5 = new User("ccc", 10, 10.0);
 
     List<User> list = Arrays.asList(user1, user2, user3, user4, user5);
-    Map<String, User> userMap = list.stream().collect(Collectors.toMap(User::getName, x -> x, (s, a) -> s));
+    Map<String, User> userMap = list.stream().collect(Collectors.toMap(User::getName, x -> x, (s, a) -> new User(s.getName(), s.getAge() + a.getAge(), s.getWeight() + a.getWeight())));
     System.out.println(userMap);
+    System.out.println(list.stream().filter(x -> x.getAge() > 10).collect(Collectors.toList()));
   }
 }
