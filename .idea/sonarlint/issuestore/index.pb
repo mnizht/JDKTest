@@ -113,3 +113,9 @@ h
 8src/cn/zhuht/jdk8test/datetime/LocalDateTimeMinTest.java,3\7\3797a8cc223e0ea2d8d049ee28752e8f98052be3
 _
 /src/cn/zhuht/jdk8test/lambda/ListToMapTest.java,7\9\7998fa5ff64a05a75d6fa7ad0416ca5d0aa7606d
+]
+-src/cn/zhuht/jdk8test/collection/MapTest.java,8\f\8fe9c7bc0332964225322cc33ef32c78f97bfe92
+a
+1src/cn/zhuht/jdk8test/datetime/LocalDateTest.java,2\9\29e4f74675581ad0d7516e98f51edeb3573c7e5f
+]
+-src/cn/zhuht/jdk8test/util/LevelTreeUtil.java,a\0\a0cf82fdee27e642694f641c750072e07bd225d9

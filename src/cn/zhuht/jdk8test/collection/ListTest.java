@@ -18,8 +18,9 @@ public class ListTest {
 
 //    method3();
 //    method4();
-    method5();
+//    method5();
 
+    method6();
   }
 
   private static void method1() {
@@ -79,14 +80,23 @@ public class ListTest {
     System.out.println(msg);
   }
 
-  private static void method5(){
+  private static void method5() {
     List<String> list = new ArrayList<>();
     List<String> list2 = new ArrayList<>();
     list2.add("aa");
 
-    System.out.println(list2.stream().filter(x->list.contains(x)).collect(Collectors.toList()));
+    System.out.println(list2.stream().filter(x -> list.contains(x)).collect(Collectors.toList()));
 
+  }
 
-
+  private static void method6() {
+    List<String> list = new ArrayList<>();
+    list.add("aa");
+    list.add("bb");
+    list.add("cc");
+    list.add("dd");
+    list.add("ee");
+    List<String> stringList = list.subList(0, 2);
+    System.out.println(stringList);
   }
 }

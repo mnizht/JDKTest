@@ -1,32 +1,35 @@
 
-Jsquid:S1612*",Replace this lambda with a method reference.(Æ’Áú8îÇ½²Æ-
-U
-squid:S106O"9Replace this use of System.out or System.err by a logger.(‚š‰18–ÕÅ¼Ö-
-Hsquid:S1481"*Remove this unused "list2" local variable.(ªÒÕ¡8îÇ½²Æ-
 [
-squid:S106W"9Replace this use of System.out or System.err by a logger.(˜©°§úÿÿÿÿ8ÉïÍöÛ-
-Rsquid:S1481&"/Remove this unused "maxResults" local variable.(ÕèíÂıÿÿÿÿ8îÇ½²Æ-
+squid:S106G"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8ïç¾æÌ-
+Hsquid:S1481$"+Remove this unused "userId" local variable.(ô”m8îÇ½²Æ-
 V
-squid:S106*"9Replace this use of System.out or System.err by a logger.(Æ’Áú8îÇ½²Æ-
-Hsquid:S1481#"+Remove this unused "userId" local variable.(ô”m8îÇ½²Æ-
+squid:S106d"9Replace this use of System.out or System.err by a logger.(şõ‘›8•®•İâ-
+^squid:S2259+"@A "NullPointerException" could be thrown; "ll" is nullable here.(Æ’Áú8îÇ½²Æ-
 [
-squid:S106+"9Replace this use of System.out or System.err by a logger.(Æì° úÿÿÿÿ8îÇ½²Æ-
-^squid:S2259*"@A "NullPointerException" could be thrown; "ll" is nullable here.(Æ’Áú8îÇ½²Æ-
+squid:S106,"9Replace this use of System.out or System.err by a logger.(Æì° úÿÿÿÿ8îÇ½²Æ-
 [
-squid:S106F"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8ïç¾æÌ-
-]squid:UnusedPrivateMethod",Remove this unused private "method1" method.(±³Ñÿşÿÿÿÿ8îÇ½²Æ-
-Ssquid:S1481%"0Remove this unused "firstResult" local variable.(†ã•ôûÿÿÿÿ8îÇ½²Æ-
+squid:S106X"9Replace this use of System.out or System.err by a logger.(˜©°§úÿÿÿÿ8ÉïÍöÛ-
+]squid:UnusedPrivateMethod>",Remove this unused private "method3" method.(ƒ³£‡ùÿÿÿÿ8‘ Æ¼Ö-
+]squid:UnusedPrivateMethod/",Remove this unused private "method2" method.(ú¡á™úÿÿÿÿ8š§›¬Ç-
 V
-squid:S1066"9Replace this use of System.out or System.err by a logger.(•È®À8œÑ²Æ-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ãîÓÿÿÿÿÿ8îÇ½²Æ-
-Gsquid:S1481$")Remove this unused "size" local variable.(ÔÀª²8îÇ½²Æ-
-hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¥é§8‘ Æ¼Ö-
-[
-squid:S106:"9Replace this use of System.out or System.err by a logger.(±šÈ‘üÿÿÿÿ8ö—ÚÆ-
-]squid:UnusedPrivateMethod.",Remove this unused private "method2" method.(ú¡á™úÿÿÿÿ8š§›¬Ç-
-]squid:UnusedPrivateMethod=",Remove this unused private "method3" method.(ƒ³£‡ùÿÿÿÿ8‘ Æ¼Ö-
-Msquid:S1481"*Remove this unused "list3" local variable.(Ã¤ßÏúÿÿÿÿ8îÇ½²Æ-
+squid:S106+"9Replace this use of System.out or System.err by a logger.(Æ’Áú8îÇ½²Æ-
+Xsquid:UnusedPrivateMethodJ",Remove this unused private "method4" method.(·Ó’¿8Şİ½öÛ-
+]squid:UnusedPrivateMethodS",Remove this unused private "method5" method.(ù·úËÿÿÿÿÿ8––İâ-
 isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(³±‘Š8ÿ¬ÃæÌ-
-isquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(˜—ß8îÇ½²Æ-
-Osquid:S1612W",Replace this lambda with a method reference.(˜©°§úÿÿÿÿ8˜ÎöÛ-
-Xsquid:UnusedPrivateMethodI",Remove this unused private "method4" method.(·Ó’¿8Şİ½öÛ-
+V
+squid:S1067"9Replace this use of System.out or System.err by a logger.(•È®À8œÑ²Æ-
+[
+squid:S106;"9Replace this use of System.out or System.err by a logger.(±šÈ‘üÿÿÿÿ8ö—ÚÆ-
+Jsquid:S1612+",Replace this lambda with a method reference.(Æ’Áú8îÇ½²Æ-
+U
+squid:S106P"9Replace this use of System.out or System.err by a logger.(‚š‰18–ÕÅ¼Ö-
+nsquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(ãîÓÿÿÿÿÿ8îÇ½²Æ-
+Gsquid:S1481%")Remove this unused "size" local variable.(ÔÀª²8îÇ½²Æ-
+Rsquid:S1481'"/Remove this unused "maxResults" local variable.(ÕèíÂıÿÿÿÿ8îÇ½²Æ-
+Osquid:S1612X",Replace this lambda with a method reference.(˜©°§úÿÿÿÿ8˜ÎöÛ-
+]squid:UnusedPrivateMethod",Remove this unused private "method1" method.(±³Ñÿşÿÿÿÿ8îÇ½²Æ-
+Hsquid:S1481"*Remove this unused "list2" local variable.(ªÒÕ¡8îÇ½²Æ-
+Msquid:S1481"*Remove this unused "list3" local variable.(Ã¤ßÏúÿÿÿÿ8îÇ½²Æ-
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¥é§8‘ Æ¼Ö-
+Ssquid:S1481&"0Remove this unused "firstResult" local variable.(†ã•ôûÿÿÿÿ8îÇ½²Æ-
+isquid:CommentedOutCodeLine("<This block of commented-out lines of code should be removed.(˜—ß8îÇ½²Æ-

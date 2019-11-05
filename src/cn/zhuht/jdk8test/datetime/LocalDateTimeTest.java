@@ -4,6 +4,7 @@ import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.ZoneId;
+import java.util.TimeZone;
 
 /**
  * @author zhuhaitao
@@ -26,6 +27,12 @@ public class LocalDateTimeTest {
     System.out.println(end);
     System.out.println(end2);
 
+    System.out.println("===============");
+    Instant nn = Instant.parse("2019-10-27T16:00:00.000Z");
+    LocalDateTime nnDate = LocalDateTime.ofInstant(nn,ZoneId.systemDefault());
+    LocalDateTime nnDate2 = LocalDateTime.ofInstant(nn, TimeZone.getDefault().toZoneId());
+    System.out.println(nnDate.getDayOfWeek());
+    System.out.println(nnDate2.getDayOfWeek());
   }
 
   public static LocalDateTime getStartDay(){
