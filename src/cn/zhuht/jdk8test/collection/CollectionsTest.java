@@ -19,7 +19,7 @@ public class CollectionsTest {
     set2.add("ddd");
     set2.add("eee");
 
-    System.out.println(set1.containsAll(set2));
+   // System.out.println(set1.containsAll(set2));
     System.out.println(set1.retainAll(set2));
     System.out.println(set1);
 

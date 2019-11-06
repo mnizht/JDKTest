@@ -1,0 +1,22 @@
+
+psquid:S4276"TRefactor this code to use the more specialised Functional Interface 'DoubleConsumer'(‘ûú¥şÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(‘ûú¥şÿÿÿÿ
+T
+squid:S106 "9Replace this use of System.out or System.err by a logger.(Ú‚‡üÿÿÿÿ
+psquid:S4276#"TRefactor this code to use the more specialised Functional Interface 'DoubleConsumer'(ë¿¬ÿÿÿÿÿ
+@squid:S2140+")Use "java.util.Random.nextInt()" instead.(Ò¥ƒ¢
+T
+squid:S106,"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ
+T
+squid:S106."9Replace this use of System.out or System.err by a logger.(‡îÁÂùÿÿÿÿ
+msquid:S42762"QRefactor this code to use the more specialised Functional Interface 'IntSupplier'(Áëûıÿÿÿÿ
+T
+squid:S106A"9Replace this use of System.out or System.err by a logger.(ı·Êôıÿÿÿÿ
+Msquid:S1611C"1Remove the parentheses around the "str" parameter(‹­çïşÿÿÿÿ
+O
+squid:S106D"9Replace this use of System.out or System.err by a logger.(áÚãÿ
+wsquid:S4276H"[Refactor this code to use the more specialised Functional Interface 'UnaryOperator<String>'(• µòûÿÿÿÿ
+Ksquid:S1611P"/Remove the parentheses around the "s" parameter(È¦½Äüÿÿÿÿ
+N
+squid:S106S"9Replace this use of System.out or System.err by a logger.(ƒÚáB

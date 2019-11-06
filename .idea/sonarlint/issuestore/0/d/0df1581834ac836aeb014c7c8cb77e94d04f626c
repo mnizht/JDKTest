@@ -1,26 +1,26 @@
 
 [
 squid:S106T"9Replace this use of System.out or System.err by a logger.(úíçÑşÿÿÿÿ8’ˆŒ®´-
-[
-squid:S106R"9Replace this use of System.out or System.err by a logger.(¿›úÿÿÿÿ8’ˆŒ®´-
-V
-squid:S106F"9Replace this use of System.out or System.err by a logger.(œ’Šê8»øë¬´-
-V
-squid:S106?"9Replace this use of System.out or System.err by a logger.(®™®‰8Àë¬´-
 V
 squid:S106B"9Replace this use of System.out or System.err by a logger.(ûéÅ8»øë¬´-
 [
+squid:S106N"9Replace this use of System.out or System.err by a logger.(µßô•ûÿÿÿÿ8Ò¹Š®´-
+[
 squid:S106;"9Replace this use of System.out or System.err by a logger.(¹†ñøÿÿÿÿ8õÎé¬´-
 [
-squid:S106O"9Replace this use of System.out or System.err by a logger.(˜å×Çÿÿÿÿÿ8’ˆŒ®´-
-Qsquid:UselessParenthesesCheck2"!Remove these useless parentheses.(‚ÏÁ„8æ€ñ×³-
-[
 squid:S106P"9Replace this use of System.out or System.err by a logger.(Şïÿÿÿÿÿ8’ˆŒ®´-
+[
+squid:S106R"9Replace this use of System.out or System.err by a logger.(¿›úÿÿÿÿ8’ˆŒ®´-
 V
 squid:S106U"9Replace this use of System.out or System.err by a logger.(¹ä¤8…•®´-
 [
-squid:S106Q"9Replace this use of System.out or System.err by a logger.(ÿ‡Íİùÿÿÿÿ8’ˆŒ®´-
+squid:S106O"9Replace this use of System.out or System.err by a logger.(˜å×Çÿÿÿÿÿ8’ˆŒ®´-
+V
+squid:S106?"9Replace this use of System.out or System.err by a logger.(®™®‰8Àë¬´-
 [
-squid:S106N"9Replace this use of System.out or System.err by a logger.(µßô•ûÿÿÿÿ8Ò¹Š®´-
+squid:S106Q"9Replace this use of System.out or System.err by a logger.(ÿ‡Íİùÿÿÿÿ8’ˆŒ®´-
+Qsquid:UselessParenthesesCheck2"!Remove these useless parentheses.(‚ÏÁ„8æ€ñ×³-
+V
+squid:S106F"9Replace this use of System.out or System.err by a logger.(œ’Šê8»øë¬´-
 [
 squid:S106S"9Replace this use of System.out or System.err by a logger.(²ñ¹şÿÿÿÿ8’ˆŒ®´-

@@ -7,11 +7,12 @@ package cn.zhuht.jdk8test.operator;
  */
 public class OperatorTest {
   public static void main(String[] args) {
-    int a = 9;
-    int b = 2;
-    System.out.println(a/b);
-    double x = 9;
-    double y = 2;
-    System.out.println(x/y);
+    int a = 20;
+    int b = 10;
+    int c = 30;
+    int max = (a > b ? a : b) > c ? (a > b ? a : b) : c;
+    System.out.println(max);
+
+
   }
 }
