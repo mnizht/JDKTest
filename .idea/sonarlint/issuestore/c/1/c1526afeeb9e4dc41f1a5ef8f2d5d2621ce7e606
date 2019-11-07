@@ -1,0 +1,18 @@
+
+Jsquid:S1481"'Remove this unused "t8" local variable.(ËËêÒùÿÿÿÿ8µçÇóã-
+[
+squid:S106,"9Replace this use of System.out or System.err by a logger.(ëÎ²Şşÿÿÿÿ8İ«úûã-
+ squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(“şºñüÿÿÿÿ8øÙ‡ôã-
+Esquid:S1481"'Remove this unused "t2" local variable.(ÚÔºı8µçÇóã-
+Esquid:S1481"'Remove this unused "t6" local variable.(µÍÆ¬8µçÇóã-
+Jsquid:S1481"'Remove this unused "t5" local variable.(ÄÏ½ûÿÿÿÿ8µçÇóã-
+Dsquid:S1481"'Remove this unused "t1" local variable.(«´¶p8µçÇóã-
+hsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ìôÎA8µçÇóã-
+[
+squid:S106*"9Replace this use of System.out or System.err by a logger.(§¨ÈÛùÿÿÿÿ8İ«úûã-
+Jsquid:S1481"'Remove this unused "t3" local variable.(ìáÇ“ùÿÿÿÿ8µçÇóã-
+Esquid:S1481"'Remove this unused "t7" local variable.(®¤ô»8µçÇóã-
+Fsquid:S1481"(Remove this unused "t10" local variable.(şØÖƒ8µçÇóã-
+nsquid:CommentedOutCodeLine%"<This block of commented-out lines of code should be removed.(÷”îûÿÿÿÿ8ÚÒúûã-
+Esquid:S1481"'Remove this unused "t4" local variable.(ŞÙÆ8µçÇóã-
+Jsquid:S1481"'Remove this unused "t9" local variable.(‹Õ©ÿÿÿÿÿ8µçÇóã-
