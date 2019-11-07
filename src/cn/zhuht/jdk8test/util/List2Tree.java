@@ -27,7 +27,7 @@ public class List2Tree {
 //    Collections.addAll(treeList, t1, t2, t3, t4, t5, t6, t7, t8, t9, t10);
     TreeNode root = new TreeNode("1", "0-1", "0");
     treeList.add(root);
-    for (int i = 2, j = 0; i < 99999; i++) {
+    for (int i = 2, j = 0; i < 999; i++) {
       j = i / 10 == 0 ? i : i / 10;
       treeList.add(
         new TreeNode(String.valueOf(i), String.format("%d-%d", j, i), String.valueOf(j))

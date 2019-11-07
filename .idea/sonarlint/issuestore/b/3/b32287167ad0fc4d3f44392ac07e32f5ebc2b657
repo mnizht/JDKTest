@@ -1,20 +1,0 @@
-
-Ksquid:S16118"5Remove the parentheses around the "message" parameter(Á÷÷j
-gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(∆‹ÿæ˚ˇˇˇˇ
-T
-squid:S106T"9Replace this use of System.out or System.err by a logger.(öóìøˇˇˇˇˇ
-T
-squid:S1062"9Replace this use of System.out or System.err by a logger.(¶ÛÄÄ˛ˇˇˇˇ
-jsquid:S1602&"SRemove useless curly braces around statement and then remove useless return keyword(ú¢îÎ
-T
-squid:S1061"9Replace this use of System.out or System.err by a logger.(≠ë◊€˚ˇˇˇˇ
-gsquid:CommentedOutCodeLine'"<This block of commented-out lines of code should be removed.(ûúÑåˇˇˇˇˇ
-T
-squid:S1060"9Replace this use of System.out or System.err by a logger.(ä–»∆˚ˇˇˇˇ
-T
-squid:S1066"9Replace this use of System.out or System.err by a logger.(™ˇ∑°˝ˇˇˇˇ
-O
-squid:S1063"9Replace this use of System.out or System.err by a logger.(Èúﬁ•
-Dsquid:S1481$"(Remove this unused "num" local variable.(Ü¨õƒ˚ˇˇˇˇ
-N
-squid:S1068"9Replace this use of System.out or System.err by a logger.(Á÷÷j

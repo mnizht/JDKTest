@@ -1,5 +1,0 @@
-
-Vsquid:S1118	":Add a private constructor to hide the implicit public one.(ôÖ®¬ùÿÿÿÿ
-csquid:S3252"EUse static access with "com.alibaba.fastjson.JSON" for "parseObject".(¹¾ª8ªù¨óã-
-dsquid:S3252"FUse static access with "com.alibaba.fastjson.JSON" for "toJavaObject".(±€Æ¿8ªù¨óã-
-csquid:S3252"@Use static access with "com.alibaba.fastjson.JSON" for "toJSON".(·áÀÛùÿÿÿÿ8ªù¨óã-
