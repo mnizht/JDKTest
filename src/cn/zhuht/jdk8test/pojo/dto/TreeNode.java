@@ -10,12 +10,14 @@ public class TreeNode {
   private String id;
   private String parentId;
   private String name;
+  private Integer num;
   private List<TreeNode> children;
 
-  public TreeNode(String id, String name, String parentId) {
+  public TreeNode(String id, String name, String parentId, Integer num) {
     this.id = id;
     this.parentId = parentId;
     this.name = name;
+    this.num = num;
   }
 
   public String getId() {
@@ -53,10 +55,19 @@ public class TreeNode {
   @Override
   public String toString() {
     return "{" +
+      "num='" + num + '\'' +
       "id='" + id + '\'' +
       ", parentId='" + parentId + '\'' +
       ", name='" + name + '\'' +
       ", children=" + children +
       '}';
+  }
+
+  public Integer getNum() {
+    return num;
+  }
+
+  public void setNum(Integer num) {
+    this.num = num;
   }
 }
