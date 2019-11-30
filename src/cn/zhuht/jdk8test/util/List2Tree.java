@@ -1,6 +1,5 @@
 package cn.zhuht.jdk8test.util;
 
-import cn.zhuht.jdk8test.genericity.JsonUtils;
 import cn.zhuht.jdk8test.pojo.dto.TreeNode;
 
 import java.util.ArrayList;
@@ -12,6 +11,7 @@ import java.util.List;
  */
 public class List2Tree {
   private static int count = 0;
+  private static int count2 = 0;
 
   public static void main(String[] args) {
 
@@ -21,7 +21,7 @@ public class List2Tree {
     long startData = System.currentTimeMillis();
     System.out.println("开始构造数据");
     int leaf = 10; //叶子数
-    for (int i = 1, level = 1, num = 1, count = 0; i < 100000; i++) {
+    for (int i = 1, level = 1, num = 1, count = 0; i < 1001; i++) {
       if (i > num) {
         count = 0;
         level++;
@@ -39,8 +39,10 @@ public class List2Tree {
     toTree01(treeList);
 //    findChildren(treeList.get(0), treeList);
     long m1End = System.currentTimeMillis();
+    System.out.println("count:" + count);
+    System.out.println("count2:" + count2);
     System.out.println("m1:" + (m1End - m1Start));
-    System.out.println(JsonUtils.objToString(treeList.get(0)));
+//    System.out.println(JsonUtils.objToString(treeList.get(0)));
 
     //递归效率更高，随着数据量的增加，递归的优势愈发的明显
 
@@ -55,9 +57,10 @@ public class List2Tree {
       for (TreeNode child : treeNodes) {
         count++;
         if (child.getParentId().equals(parent.getId())) {
-          if (parent.getChildren() == null) {
-            parent.setChildren(new ArrayList<>());
-          }
+          count2++;
+//          if (parent.getChildren() == null) {
+//            parent.setChildren(new ArrayList<>());
+//          }
           parent.getChildren().add(child);
         }
       }

@@ -1,5 +1,6 @@
 package cn.zhuht.jdk8test.pojo.dto;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -18,6 +19,7 @@ public class TreeNode {
     this.parentId = parentId;
     this.name = name;
     this.num = num;
+    this.children = new ArrayList<>();
   }
 
   public String getId() {
