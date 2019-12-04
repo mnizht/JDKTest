@@ -12,8 +12,6 @@ import java.util.stream.Collectors;
  * @date 2019/11/5 17:22
  */
 public class List2Tree {
-  private static int count = 0;
-  private static int count2 = 0;
 
   public static void main(String[] args) {
 
@@ -23,16 +21,12 @@ public class List2Tree {
         List<Long> timeList = new ArrayList<>();
 
         for (int i = 0; i < 10; i++) {
-          List<TreeNode> treeNodes_copy = makeData(leaf);
+          List<TreeNode> treeNodesCopy = makeData(leaf);
           long m1Start = System.currentTimeMillis();
-//          toTree01(treeNodes_copy);
-          findChildren(treeNodes_copy.get(0), treeNodes_copy);
+//          toTree01(treeNodesCopy);
+          findChildren(treeNodesCopy.get(0), treeNodesCopy);
           long m1End = System.currentTimeMillis();
-//      System.out.println("count:" + count);
-//      System.out.println("count2:" + count2);
-//          System.out.println("time = " + (m1End - m1Start));
           timeList.add(m1End - m1Start);
-//    System.out.println(JsonUtils.objToString(treeNodes_copy.get(0)));
         }
         timeList.sort(Long::compareTo);
         long average = (timeList.stream().collect(Collectors.summingLong(x -> x)) - timeList.get(0) - timeList.get(9)) / 8;
@@ -49,12 +43,7 @@ public class List2Tree {
 
     for (TreeNode parent : treeNodes) {
       for (TreeNode child : treeNodes) {
-//        count++;
         if (child.getParentId().equals(parent.getId())) {
-//          count2++;
-//          if (parent.getChildren() == null) {
-//            parent.setChildren(new ArrayList<>());
-//          }
           parent.getChildren().add(child);
         }
       }
@@ -66,7 +55,6 @@ public class List2Tree {
    */
   public static TreeNode findChildren(TreeNode parent, List<TreeNode> treeNodes) {
     for (TreeNode child : treeNodes) {
-//      count++;
       if (parent.getId().equals(child.getParentId())) {
         if (parent.getChildren() == null) {
           parent.setChildren(new ArrayList<>());
@@ -80,9 +68,7 @@ public class List2Tree {
 
   public static List<TreeNode> makeData(int leaf) {
     List<TreeNode> treeList = new ArrayList<>();
-    long startData = System.currentTimeMillis();
-//    System.out.println("开始构造数据");
-//    int leaf = 200; //叶子数
+
     int layer = 4; //层数
     int count_node = layer == 1 ? 1 : (int) ((Math.pow(leaf, layer) - 1) / (leaf - 1));
     for (int i = 1, level = 1, num = 1, countNum = 0; i <= 10000; i++) {
@@ -96,9 +82,7 @@ public class List2Tree {
       );
       countNum++;
     }
-    long endData = System.currentTimeMillis();
-//    System.out.println("构造数据完成,size：" + treeList.size());
-//    System.out.println("构造数据完成,耗时：" + (endData - startData));
+
     return treeList;
   }
 
