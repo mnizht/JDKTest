@@ -3,7 +3,9 @@ package cn.zhuht.jdk8test.util;
 import cn.zhuht.jdk8test.pojo.dto.TreeNode;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author zhuhaitao
@@ -16,35 +18,27 @@ public class List2Tree {
   public static void main(String[] args) {
 
 
-    List<TreeNode> treeList = new ArrayList<>();
+    List<Integer> leaves = Arrays.asList(2, 5, 10, 20, 50, 100, 200, 500, 1000);
+    leaves.forEach(leaf -> {
+        List<Long> timeList = new ArrayList<>();
 
-    long startData = System.currentTimeMillis();
-    System.out.println("开始构造数据");
-    int leaf = 10; //叶子数
-    for (int i = 1, level = 1, num = 1, count = 0; i < 1001; i++) {
-      if (i > num) {
-        count = 0;
-        level++;
-        num = (int) ((Math.pow(leaf, level) - 1) / (leaf - 1));
+        for (int i = 0; i < 10; i++) {
+          List<TreeNode> treeNodes_copy = makeData(leaf);
+          long m1Start = System.currentTimeMillis();
+//          toTree01(treeNodes_copy);
+          findChildren(treeNodes_copy.get(0), treeNodes_copy);
+          long m1End = System.currentTimeMillis();
+//      System.out.println("count:" + count);
+//      System.out.println("count2:" + count2);
+//          System.out.println("time = " + (m1End - m1Start));
+          timeList.add(m1End - m1Start);
+//    System.out.println(JsonUtils.objToString(treeNodes_copy.get(0)));
+        }
+        timeList.sort(Long::compareTo);
+        long average = (timeList.stream().collect(Collectors.summingLong(x -> x)) - timeList.get(0) - timeList.get(9)) / 8;
+        System.out.println("average= " + average);
       }
-      treeList.add(
-        new TreeNode(String.format("%d-%d", level, count), String.format("%d-%d", level, count), String.format("%d-%d", level - 1, count / leaf), i)
-      );
-      count++;
-    }
-    long endData = System.currentTimeMillis();
-    System.out.println("构造数据完成,size：" + treeList.size());
-    System.out.println("构造数据完成,耗时：" + (endData - startData));
-    long m1Start = System.currentTimeMillis();
-    toTree01(treeList);
-//    findChildren(treeList.get(0), treeList);
-    long m1End = System.currentTimeMillis();
-    System.out.println("count:" + count);
-    System.out.println("count2:" + count2);
-    System.out.println("m1:" + (m1End - m1Start));
-//    System.out.println(JsonUtils.objToString(treeList.get(0)));
-
-    //递归效率更高，随着数据量的增加，递归的优势愈发的明显
+    );
 
   }
 
@@ -55,9 +49,9 @@ public class List2Tree {
 
     for (TreeNode parent : treeNodes) {
       for (TreeNode child : treeNodes) {
-        count++;
+//        count++;
         if (child.getParentId().equals(parent.getId())) {
-          count2++;
+//          count2++;
 //          if (parent.getChildren() == null) {
 //            parent.setChildren(new ArrayList<>());
 //          }
@@ -72,7 +66,7 @@ public class List2Tree {
    */
   public static TreeNode findChildren(TreeNode parent, List<TreeNode> treeNodes) {
     for (TreeNode child : treeNodes) {
-      count++;
+//      count++;
       if (parent.getId().equals(child.getParentId())) {
         if (parent.getChildren() == null) {
           parent.setChildren(new ArrayList<>());
@@ -82,6 +76,30 @@ public class List2Tree {
       }
     }
     return parent;
+  }
+
+  public static List<TreeNode> makeData(int leaf) {
+    List<TreeNode> treeList = new ArrayList<>();
+    long startData = System.currentTimeMillis();
+//    System.out.println("开始构造数据");
+//    int leaf = 200; //叶子数
+    int layer = 4; //层数
+    int count_node = layer == 1 ? 1 : (int) ((Math.pow(leaf, layer) - 1) / (leaf - 1));
+    for (int i = 1, level = 1, num = 1, countNum = 0; i <= 10000; i++) {
+      if (i > num) {
+        countNum = 0;
+        level++;
+        num = (int) ((Math.pow(leaf, level) - 1) / (leaf - 1));
+      }
+      treeList.add(
+        new TreeNode(String.format("%d-%d", level, countNum), String.format("%d-%d", level, countNum), String.format("%d-%d", level - 1, countNum / leaf), i)
+      );
+      countNum++;
+    }
+    long endData = System.currentTimeMillis();
+//    System.out.println("构造数据完成,size：" + treeList.size());
+//    System.out.println("构造数据完成,耗时：" + (endData - startData));
+    return treeList;
   }
 
 }
