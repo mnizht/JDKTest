@@ -23,8 +23,8 @@ public class List2Tree {
         for (int i = 0; i < 10; i++) {
           List<TreeNode> treeNodesCopy = makeData(leaf);
           long m1Start = System.currentTimeMillis();
-//          toTree01(treeNodesCopy);
-          findChildren(treeNodesCopy.get(0), treeNodesCopy);
+          toTree01(treeNodesCopy);
+//          findChildren(treeNodesCopy.get(0), treeNodesCopy);
           long m1End = System.currentTimeMillis();
           timeList.add(m1End - m1Start);
         }
