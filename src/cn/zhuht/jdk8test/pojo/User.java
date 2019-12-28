@@ -11,21 +11,25 @@ import lombok.experimental.Accessors;
 @Data
 @Accessors(chain = true)
 public class User {
-    private String name;
-    private Integer age;
-    private Double weight;
+  private String name;
+  private Integer age;
+  private Double weight;
 
-    public User(String name, Integer age, Double weight) {
-        this.name = name;
-        this.age = age;
-        this.weight = weight;
-    }
+  public User(String name, Integer age, Double weight) {
+    this.name = name;
+    this.age = age;
+    this.weight = weight;
+  }
 
-    public User(String name, Integer age) {
-        this.name = name;
-        this.age = age;
-    }
+  public User(String name, Integer age) {
+    this.name = name;
+    this.age = age;
+  }
 
-    public User() {
-    }
+  public User() {
+  }
+
+  public static String fetchGroupKey(User user) {
+    return user.getName() + user.getAge();
+  }
 }

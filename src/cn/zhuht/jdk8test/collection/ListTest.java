@@ -20,7 +20,8 @@ public class ListTest {
 //    method4();
 //    method5();
 
-    method6();
+//    method6();
+    method8();
   }
 
   private static void method1() {
@@ -98,5 +99,34 @@ public class ListTest {
     list.add("ee");
     List<String> stringList = list.subList(0, 2);
     System.out.println(stringList);
+  }
+
+  private static void method7() {
+    List<String> rule = new ArrayList<>();
+    rule.add("主管理员");
+    rule.add("子管理员");
+    rule.add("主管");
+    rule.add("负责人");
+
+    List<String> roles = new ArrayList<>();
+    roles.add("主管");
+    roles.add("主管理员");
+    roles.add("负责人");
+
+    rule.retainAll(roles);
+
+    System.out.println(rule);
+  }
+
+  private static void method8() {
+    List<String> rule = new ArrayList<>();
+    rule.add("主管理员");
+    rule.add("子管理员");
+    rule.add("主管");
+    rule.add("负责人");
+
+    List<String> subList = rule.subList(0, Math.min(rule.size(), 20));
+
+    System.out.println(subList);
   }
 }
