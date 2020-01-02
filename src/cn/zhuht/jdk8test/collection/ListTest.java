@@ -1,8 +1,11 @@
 package cn.zhuht.jdk8test.collection;
 
+import cn.zhuht.jdk8test.pojo.Org;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -21,8 +24,10 @@ public class ListTest {
 //    method5();
 
 //    method6();
-    method8();
+//    method8();
+    method9();
   }
+
 
   private static void method1() {
     List<String> list1 = new ArrayList<>();
@@ -128,5 +133,29 @@ public class ListTest {
     List<String> subList = rule.subList(0, Math.min(rule.size(), 20));
 
     System.out.println(subList);
+  }
+
+  private static void method9() {
+    Org org1 = new Org("000105");
+    Org org2 = new Org("00010601");
+    Org org3 = new Org("00010603");
+    Org org4 = new Org("000102");
+    Org org5 = new Org("0001");
+    Org org6 = new Org("00010604");
+    Org org7 = new Org("00010605");
+    Org org8 = new Org("000101");
+
+    List<Org> list = new ArrayList<>();
+    list.add(org1);
+    list.add(org2);
+    list.add(org3);
+    list.add(org4);
+    list.add(org5);
+    list.add(org6);
+    list.add(org7);
+    list.add(org8);
+    System.out.println(list);
+    list = list.stream().sorted(Comparator.comparing(Org::getOrgNum)).collect(Collectors.toList());
+    System.out.println(list);
   }
 }
