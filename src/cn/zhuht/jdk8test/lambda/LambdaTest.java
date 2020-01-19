@@ -3,6 +3,7 @@ package cn.zhuht.jdk8test.lambda;
 import cn.zhuht.jdk8test.pojo.User;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
@@ -11,7 +12,7 @@ import java.util.stream.Collectors;
 /**
  * author zhuhaitao
  * date 2019/2/21 10:46
- *
+ * <p>
  * Lambda 表达式主要用来定义行内执行的方法类型接口
  * Lambda 表达式免去了使用匿名方法的麻烦，并且给予Java简单但是强大的函数化编程能力。
  * Lambda 表达式中不允许声明与外部变量同名的变量或参数
@@ -20,10 +21,11 @@ import java.util.stream.Collectors;
  **/
 public class LambdaTest {
   public static void main(String[] args) {
-    groupSort();
+//    groupSort();
+    nullTest();
   }
 
-  public static void test(){
+  public static void test() {
     LambdaTest test = new LambdaTest();
 //    int a = 10;
 //    int b = 5;
@@ -45,15 +47,15 @@ public class LambdaTest {
     MathOperation division = (int a, int b) -> a / b;
     int a = 10;
     int b = 5;
-    System.out.println("10 + 5 = "+test.operation(a,b,addition));
-    System.out.println("10 - 5 = "+test.operation(a,b,subtraction));
-    System.out.println("10 * 5 = "+test.operation(a,b,multiplication));
-    System.out.println("10 / 5 = "+test.operation(a,b,division));
+    System.out.println("10 + 5 = " + test.operation(a, b, addition));
+    System.out.println("10 - 5 = " + test.operation(a, b, subtraction));
+    System.out.println("10 * 5 = " + test.operation(a, b, multiplication));
+    System.out.println("10 / 5 = " + test.operation(a, b, division));
 
     //不用括号
-    GreetingService greetService1 = message-> System.out.println("Hello "+message);
+    GreetingService greetService1 = message -> System.out.println("Hello " + message);
     //用括号
-    GreetingService greetService2 = (message)-> System.out.println("Hello "+message);
+    GreetingService greetService2 = (message) -> System.out.println("Hello " + message);
 
     greetService1.sayMessage("World");
     greetService2.sayMessage("new world");
@@ -71,16 +73,24 @@ public class LambdaTest {
     return mathOperation.operation(a, b);
   }
 
-  public static void groupSort(){
-    User user1 = new User("zhao",13);
-    User user2 = new User("zhao",11);
-    User user3 = new User("zhao",13);
-    User user4 = new User("qian",10);
-    User user5 = new User("qian",65);
-    User user6 = new User("qian",35);
-    User user7 = new User("sun",20);
+  public static void groupSort() {
+    User user1 = new User("zhao", 13);
+    User user2 = new User("zhao", 11);
+    User user3 = new User("zhao", 13);
+    User user4 = new User("qian", 10);
+    User user5 = new User("qian", 65);
+    User user6 = new User("qian", 35);
+    User user7 = new User("sun", 20);
     Map<String, List<User>> collect = Arrays.asList(user1, user2, user3, user4, user5, user6, user7).stream().sorted(Comparator.comparing(User::getAge))
       .collect(Collectors.groupingBy(User::getName));
     System.out.println(collect);
+  }
+
+  public static void nullTest() {
+    List<User> list = Collections.emptyList();
+//    int min = Collections.min(list.stream().map(User::getAge).collect(Collectors.toList()));
+//    System.out.println(min);
+    List<String> names = list.stream().map(User::getName).collect(Collectors.toList());
+    System.out.println(names);
   }
 }

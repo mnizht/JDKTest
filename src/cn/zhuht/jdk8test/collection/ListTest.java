@@ -25,7 +25,8 @@ public class ListTest {
 
 //    method6();
 //    method8();
-    method9();
+//    method9();
+    method10();
   }
 
 
@@ -156,6 +157,17 @@ public class ListTest {
     list.add(org8);
     System.out.println(list);
     list = list.stream().sorted(Comparator.comparing(Org::getOrgNum)).collect(Collectors.toList());
+    System.out.println(list);
+  }
+
+  private static void method10(){
+    List<String> list = new ArrayList<>();
+    list.add("6619797633647120384");
+
+    List<String> list2 = new ArrayList<>();
+    list2.add("6619797632938283008");
+
+    list.removeAll(list2);
     System.out.println(list);
   }
 }

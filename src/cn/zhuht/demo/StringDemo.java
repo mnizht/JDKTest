@@ -27,6 +27,7 @@ public class StringDemo {
     System.out.println(name.contains(str6));
     System.out.println(name.contains(str7));
     System.out.println(name.contains(str8));
+    System.out.println("".contains(str7));
 
   }
 }
