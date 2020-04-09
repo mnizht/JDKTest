@@ -1,6 +1,6 @@
 .idea/*
 .idea/workspace.xml
-.gradle
+.gradle/
 build
 gradle
 out
