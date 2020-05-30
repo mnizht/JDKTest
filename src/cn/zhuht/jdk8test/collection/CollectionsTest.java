@@ -1,6 +1,9 @@
 package cn.zhuht.jdk8test.collection;
 
+import java.util.Collections;
+import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Map;
 import java.util.Set;
 
 /**
@@ -9,6 +12,17 @@ import java.util.Set;
  */
 public class CollectionsTest {
   public static void main(String[] args) {
+//    test1();
+    test2();
+  }
+
+  private static void test2() {
+    Map<String, String> map = new HashMap<>(Collections.emptyMap());
+
+    map.put("aa", "AAA");
+  }
+
+  private static void test1() {
     Set<String> set1 = new HashSet<>();
     set1.add("aaa");
     set1.add("bbb");
@@ -19,9 +33,8 @@ public class CollectionsTest {
     set2.add("ddd");
     set2.add("eee");
 
-   // System.out.println(set1.containsAll(set2));
+    // System.out.println(set1.containsAll(set2));
     System.out.println(set1.retainAll(set2));
     System.out.println(set1);
-
   }
 }

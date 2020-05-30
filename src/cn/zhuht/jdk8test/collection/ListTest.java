@@ -1,12 +1,15 @@
 package cn.zhuht.jdk8test.collection;
 
 import cn.zhuht.jdk8test.pojo.Org;
+import cn.zhuht.jdk8test.pojo.User;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 
 /**
@@ -26,9 +29,33 @@ public class ListTest {
 //    method6();
 //    method8();
 //    method9();
-    method10();
+//    method10();
+    method11();
   }
 
+  private static void method11() {
+    LocalDateTime now = LocalDateTime.now();
+    User user1 = new User("AA", 1, 10.0, now);
+    User user2 = new User("AA", 2, 10.0, now.minusDays(1));
+    User user3 = new User("AA", 3, 10.0, now.minusDays(2));
+    User user4 = new User("AA", 4, 10.0, now.minusDays(3));
+    User user5 = new User("BB", 5, 10.0, now.minusDays(4));
+    User user6 = new User("BB", 6, 10.0, now.minusDays(5));
+    User user7 = new User("BB", 7, 10.0, now.minusDays(6));
+    User user8 = new User("CC", 8, 10.0, now.minusDays(7));
+    User user9 = new User("CC", 9, 10.0, now.minusDays(8));
+
+    List<User> list = Arrays.asList(user3, user2, user7, user9, user4, user6, user1, user8, user5);
+    Map<String, List<User>> collect = list.stream().collect(Collectors.groupingBy(User::getName));
+    for (Map.Entry<String, List<User>> entry : collect.entrySet()) {
+      List<User> value = entry.getValue();
+      System.out.println("value = " + value.toString());
+      value.sort(Comparator.comparing(User::getBirthday).reversed());
+      System.out.println("value2 = " + value.toString());
+
+    }
+
+  }
 
   private static void method1() {
     List<String> list1 = new ArrayList<>();
@@ -160,7 +187,7 @@ public class ListTest {
     System.out.println(list);
   }
 
-  private static void method10(){
+  private static void method10() {
     List<String> list = new ArrayList<>();
     list.add("6619797633647120384");
 

@@ -1,6 +1,12 @@
 package cn.zhuht.jdk8test.util;
 
-import java.util.*;
+import java.security.SecureRandom;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Random;
+import java.util.UUID;
 
 /**
  * author zhuhaitao
@@ -58,7 +64,7 @@ public class Utils {
     System.out.println("===============================");
     byte[] bytes1 = new byte[16];
     byte[] bytes2 = new byte[16];
-    nextBytes(randoms,bytes1);
+    nextBytes(randoms, bytes1);
     //nextBytes2(randoms,bytes2);
     printByte(bytes1);
     //printByte(bytes2);
@@ -66,60 +72,72 @@ public class Utils {
     mergeLong(bytes1);
 
   }
-  public static void nextBytes(int[] ints,byte[] bytes) {
+
+  public static void nextBytes(int[] ints, byte[] bytes) {
     for (int i = 0, len = bytes.length; i < len; )
-      for (int rnd = ints[i] ,
-           n = Math.min(len - i, Integer.SIZE/Byte.SIZE);
+      for (int rnd = ints[i],
+           n = Math.min(len - i, Integer.SIZE / Byte.SIZE);
            n-- > 0; rnd >>= Byte.SIZE)
-        bytes[i++] = (byte)rnd;
+        bytes[i++] = (byte) rnd;
   }
-  public static void nextBytes2(int[] ints,byte[] bytes) {
+
+  public static void nextBytes2(int[] ints, byte[] bytes) {
     for (int i = 0, len = bytes.length; i < len; )
-      for (int rnd = ints[i] ,
-           n = Math.min(len - i, Integer.SIZE/Byte.SIZE);
+      for (int rnd = ints[i],
+           n = Math.min(len - i, Integer.SIZE / Byte.SIZE);
            n-- > 0; rnd /= 256)//此处会有小数保留问题，右移运算相当于除完直接去掉小数位，不做四舍五入
-        bytes[i++] = (byte)rnd;
+        bytes[i++] = (byte) rnd;
 
   }
 
-  public static void printInt(int[] ints){
-    for (int i:ints){
-      System.out.print(i+",");
-    }
-    System.out.println();
-  }
-  public static void printByte(byte[] bytes){
-    for (byte b:bytes){
-      System.out.print(b+",");
+  public static void printInt(int[] ints) {
+    for (int i : ints) {
+      System.out.print(i + ",");
     }
     System.out.println();
   }
 
-  public static void testYunsuan(int[] ints){
-    for (int i:ints){
-      System.out.print(i>>8);
+  public static void printByte(byte[] bytes) {
+    for (byte b : bytes) {
+      System.out.print(b + ",");
+    }
+    System.out.println();
+  }
+
+  public static void testYunsuan(int[] ints) {
+    for (int i : ints) {
+      System.out.print(i >> 8);
       System.out.print("<-->");
-      System.out.print(i/256);
+      System.out.print(i / 256);
       System.out.print(", ");
     }
   }
 
-  public static void andOrYunsuan(byte[] randomBytes){
-    randomBytes[6]  &= 0x0f;  /* clear version        */
-    randomBytes[6]  |= 0x40;  /* set to version 4     */
-    randomBytes[8]  &= 0x3f;  /* clear variant        */
-    randomBytes[8]  |= 0x80;  /* set to IETF variant  */
+  public static void andOrYunsuan(byte[] randomBytes) {
+    randomBytes[6] &= 0x0f;  /* clear version        */
+    randomBytes[6] |= 0x40;  /* set to version 4     */
+    randomBytes[8] &= 0x3f;  /* clear variant        */
+    randomBytes[8] |= 0x80;  /* set to IETF variant  */
   }
 
-  public static void mergeLong(byte[] data){
+  public static void mergeLong(byte[] data) {
     long msb = 0;
     long lsb = 0;
     assert data.length == 16 : "data must be 16 bytes in length";
-    for (int i=0; i<8; i++)
+    for (int i = 0; i < 8; i++)
       msb = (msb << 8) | (data[i] & 0xff);
-    for (int i=8; i<16; i++)
+    for (int i = 8; i < 16; i++)
       lsb = (lsb << 8) | (data[i] & 0xff);
-    System.out.println("msb="+msb);
-    System.out.println("lsb="+lsb);
+    System.out.println("msb=" + msb);
+    System.out.println("lsb=" + lsb);
+  }
+
+  public static String getNumStr() {
+    StringBuilder num = new StringBuilder();
+    SecureRandom random = new SecureRandom();//NOSONAR
+    for (int i = 0; i < 6; i++) {
+      num.append(random.nextInt(10));
+    }
+    return num.toString();
   }
 }
