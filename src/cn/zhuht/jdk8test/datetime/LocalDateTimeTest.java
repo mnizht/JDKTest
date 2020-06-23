@@ -1,9 +1,11 @@
 package cn.zhuht.jdk8test.datetime;
 
+import java.time.DayOfWeek;
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.ZoneId;
+import java.time.temporal.ChronoField;
 import java.util.TimeZone;
 
 /**
@@ -12,12 +14,25 @@ import java.util.TimeZone;
  */
 public class LocalDateTimeTest {
   public static void main(String[] args) {
+
+    test02();
+  }
+
+  public static void test02() {
+    LocalDateTime now = LocalDateTime.now();
+    System.out.println(now);
+    LocalDateTime with = now.with(ChronoField.DAY_OF_WEEK, DayOfWeek.MONDAY.getValue()).with(LocalTime.MIN);
+    System.out.println(with);
+
+  }
+
+  public static void test01() {
     LocalDateTime now = LocalDateTime.now();
     System.out.println(now);
     System.out.println(now.minusDays(-1));
     System.out.println(getStartDay());
     System.out.println(getEndDay());
-    System.out.println("aaaaa:"+ now.with(LocalDateTime.MIN));
+    System.out.println("aaaaa:" + now.with(LocalDateTime.MIN));
     System.out.println("MIN:" + LocalDateTime.MIN);
 
     Instant instant = Instant.parse("2100-01-01T00:00:00.000Z");
@@ -29,17 +44,17 @@ public class LocalDateTimeTest {
 
     System.out.println("===============");
     Instant nn = Instant.parse("2019-10-27T16:00:00.000Z");
-    LocalDateTime nnDate = LocalDateTime.ofInstant(nn,ZoneId.systemDefault());
+    LocalDateTime nnDate = LocalDateTime.ofInstant(nn, ZoneId.systemDefault());
     LocalDateTime nnDate2 = LocalDateTime.ofInstant(nn, TimeZone.getDefault().toZoneId());
     System.out.println(nnDate.getDayOfWeek());
     System.out.println(nnDate2.getDayOfWeek());
   }
 
-  public static LocalDateTime getStartDay(){
+  public static LocalDateTime getStartDay() {
     return LocalDateTime.now().with(LocalTime.MIN);
   }
 
-  public static LocalDateTime getEndDay(){
+  public static LocalDateTime getEndDay() {
     return LocalDateTime.now().with(LocalTime.MAX);
   }
 }

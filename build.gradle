@@ -20,7 +20,7 @@ repositories {
 
 dependencies {
     compile 'junit:junit:4.12'
-    compile 'com.alibaba:fastjson:1.2.7'
+    compile 'com.alibaba:fastjson:1.2.70'
     compile group: 'org.projectlombok', name: 'lombok', version: '1.18.4'
     compile 'org.hamcrest:hamcrest-all:1.3'
 }
