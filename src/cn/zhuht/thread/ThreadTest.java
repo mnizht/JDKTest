@@ -3,6 +3,9 @@ package cn.zhuht.thread;
 import java.io.IOException;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.Executor;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import java.util.concurrent.RejectedExecutionHandler;
 import java.util.concurrent.ThreadFactory;
 import java.util.concurrent.ThreadPoolExecutor;
@@ -26,12 +29,18 @@ public class ThreadTest {
     ThreadPoolExecutor executor = new ThreadPoolExecutor(corePoolSize,
       maximumPoolSize, keepAliveTime, unit, workQueue, threadFactory, handler);
 
+    ExecutorService executorService = Executors.newFixedThreadPool(10);
     executor.prestartAllCoreThreads(); //预启动所有核心线程
-    for (int i = 1; i <= 10; i++) {
-      MyTask task = new MyTask(String.valueOf(i));
-      executor.execute(task);
+//    for (int i = 1; i <= 10; i++) {
+//      MyTask task = new MyTask(String.valueOf(i));
+//      executor.execute(task);
+//    }
+    AtomicInteger integer = new AtomicInteger(1);
+    for (int i = 0; i < 10; i++) {
+      executorService.submit(() -> System.out.println(String.format("Thread %d is running",integer.getAndIncrement())));
     }
-    System.in.read(); //阻塞主线程
+
+//    System.in.read(); //阻塞主线程
 
   }
 
