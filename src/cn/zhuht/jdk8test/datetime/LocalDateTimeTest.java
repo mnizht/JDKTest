@@ -15,7 +15,14 @@ import java.util.TimeZone;
 public class LocalDateTimeTest {
   public static void main(String[] args) {
 
-    test02();
+    test03();
+  }
+
+  public static void test03() {
+    LocalDateTime now = LocalDateTime.now();
+    System.out.println(now);
+    LocalDateTime monday = now.with(DayOfWeek.TUESDAY).with(LocalTime.MIN);
+    System.out.println(monday);
   }
 
   public static void test02() {

@@ -6,10 +6,13 @@ import cn.zhuht.jdk8test.pojo.User;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
@@ -30,7 +33,33 @@ public class ListTest {
 //    method8();
 //    method9();
 //    method10();
-    method11();
+//    method11();
+//    method12();
+    method13();
+  }
+
+  public static void method13(){
+    List<String> list = new ArrayList<>();
+    list.add(null);
+    Collections.sort(list);
+  }
+
+  private static void method12() {
+    List<String> list = new ArrayList<>();
+    list.add("aa");
+    list.add("bb");
+    list.add("cc");
+
+    HashSet<String> strings = new HashSet<>(list);
+    Set<String> set = new HashSet<>();
+    System.out.println(set.containsAll((Collection)null));
+    System.out.println(set.equals(new HashSet<>(null)));
+
+    set.add("aa");
+    set.add("bb");
+
+    set.add("dd");
+    System.out.println(strings.equals(set));
   }
 
   private static void method11() {
