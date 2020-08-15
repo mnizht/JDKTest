@@ -35,10 +35,36 @@ public class ListTest {
 //    method10();
 //    method11();
 //    method12();
-    method13();
+//    method13();
+//    method14();
+    method15();
   }
 
-  public static void method13(){
+  public static void method15() {
+    User user = new User("aa", 10);
+    User user2 = new User("aa", 55);
+    User user3 = new User("aa", 20);
+    User user4 = new User("bb", 20);
+    User user5 = new User("bb", 15);
+    User user6 = new User("bb", 30);
+    User user7 = new User("bb", 10);
+    User user8 = new User("cc", 25);
+    User user9 = new User("cc", 10);
+
+    List<User> users = Arrays.asList(user, user2, user3, user4, user5, user6, user7, user8, user9);
+    Map<String, List<User>> map = users.stream().sorted(Comparator.comparingInt(User::getAge))
+      .collect(Collectors.groupingBy(User::getName));
+    map.entrySet().forEach(entry -> System.out.println(entry.getKey() + ":" + entry.getValue().toString()));
+  }
+
+  public static void method14() {
+    Set<String> set = new HashSet<>();
+    List<String> list = new ArrayList<>();
+    System.out.println(set.containsAll(list));
+    System.out.println(list.containsAll(set));
+  }
+
+  public static void method13() {
     List<String> list = new ArrayList<>();
     list.add(null);
     Collections.sort(list);
@@ -49,10 +75,10 @@ public class ListTest {
     list.add("aa");
     list.add("bb");
     list.add("cc");
-
+    System.out.println(list.toString());
     HashSet<String> strings = new HashSet<>(list);
     Set<String> set = new HashSet<>();
-    System.out.println(set.containsAll((Collection)null));
+    System.out.println(set.containsAll((Collection) null));
     System.out.println(set.equals(new HashSet<>(null)));
 
     set.add("aa");
