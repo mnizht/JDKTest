@@ -15,7 +15,13 @@ import java.util.TimeZone;
 public class LocalDateTimeTest {
   public static void main(String[] args) {
 
-    test03();
+//    test03();
+    test04();
+  }
+
+  public static void test04(){
+    LocalDateTime now = LocalDateTime.now();
+    System.out.println(now.isAfter(null));
   }
 
   public static void test03() {
