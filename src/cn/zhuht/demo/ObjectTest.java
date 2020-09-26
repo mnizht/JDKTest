@@ -8,9 +8,21 @@ import cn.zhuht.jdk8test.pojo.User;
  */
 public class ObjectTest {
   public static void main(String[] args) {
+    method02();
+  }
+
+  public static void method02() {
+    User user = new User("aa", 10);
+    User user2 = new User("bb", 10);
+
+    System.out.println(user.getAge().equals(user2.getAge()));
+
+  }
+
+  public static void method01() {
     User user1 = new User();
     System.out.println(user1.hashCode());
-    User user2 = new User("name",23,34.5);
+    User user2 = new User("name", 23, 34.5);
     System.out.println(user2.hashCode());
     User user3 = new User();
     System.out.println(user3.hashCode());
@@ -18,7 +30,7 @@ public class ObjectTest {
     user4.setName("");
     System.out.println(user4.hashCode());
 
-    System.out.println(user1==user3);
+    System.out.println(user1 == user3);
     System.out.println(user1.equals(user3));
   }
 }

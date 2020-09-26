@@ -2,6 +2,7 @@ package cn.zhuht.jdk8test.collection;
 
 import cn.zhuht.jdk8test.pojo.Org;
 import cn.zhuht.jdk8test.pojo.User;
+import com.alibaba.fastjson.JSONArray;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -37,7 +38,21 @@ public class ListTest {
 //    method12();
 //    method13();
 //    method14();
-    method15();
+//    method15();
+    method16();
+  }
+
+  public static void method16() {
+    String str1 = "学员姓名：张三 &update; 李四";
+    String str2 = "学员年级：一年级 &update; 二年级";
+    String str3 = "学员年龄：13 &update; 14";
+
+    List<String> list = Arrays.asList(str1, str2, str3);
+    String s = JSONArray.toJSONString(list);
+    System.out.println("content=" + s);
+
+    List<String> parse = (List<String>) JSONArray.parse(s);
+    parse.forEach(System.out::println);
   }
 
   public static void method15() {

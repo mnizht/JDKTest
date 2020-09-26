@@ -22,7 +22,20 @@ import java.util.stream.Collectors;
 public class LambdaTest {
   public static void main(String[] args) {
 //    groupSort();
-    nullTest();
+//    nullTest();
+    doubleStreamTest();
+  }
+
+
+  public static void doubleStreamTest() {
+    List<String> names = Arrays.asList("aa", "bb", "cc");
+    List<Integer> ages = Arrays.asList(5, 10);
+
+    List<User> list = names.stream().flatMap(name ->
+      ages.stream().map(age -> new User(name, age))
+    ).collect(Collectors.toList());
+
+    System.out.println(list.toString());
   }
 
   public static void test() {

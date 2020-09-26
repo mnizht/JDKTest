@@ -6,6 +6,16 @@ package cn.zhuht.demo;
  */
 public class StringDemo {
   public static void main(String[] args) {
+
+    method02();
+  }
+
+  public static void method02() {
+    String name = String.format("%%%s%%", "name");
+    System.out.println(name);
+  }
+
+  public static void method01() {
     String CHANGE_RECORD_REMARK_DES = "变更(%d)个学员备注标签";
     System.out.println(String.format(CHANGE_RECORD_REMARK_DES, 7));
 
@@ -28,6 +38,5 @@ public class StringDemo {
     System.out.println(name.contains(str7));
     System.out.println(name.contains(str8));
     System.out.println("".contains(str7));
-
   }
 }
