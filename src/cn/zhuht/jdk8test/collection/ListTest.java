@@ -22,24 +22,40 @@ import java.util.stream.Collectors;
  **/
 public class ListTest {
   public static void main(String[] args) {
-//    String[] strs = {"孙悟空","猪八戒","沙和尚","唐僧","蜘蛛精","白骨精"};
-//    List<String> stringList = Arrays.asList("孙悟空","猪八戒","沙和尚","唐僧","蜘蛛精","白骨精");
-//    System.out.println(stringList.get(-1));
+    method17();
+  }
 
-//    method3();
-//    method4();
-//    method5();
+  public static void method17() {
+    List<User> list1 = new ArrayList<>(50000);
+    List<User> list2 = new ArrayList<>(500000);
+    for (int i = 0; i < 50000; i++) {
+      list1.add(new User(String.valueOf(i), i));
+    }
+    for (int i = 500000; i > 0; i--) {
+      list1.add(new User(String.valueOf(i), i));
+    }
+    List<User> list3 = new ArrayList<>(list2);
+    Set<String> name1 = list1.stream().map(User::getName).collect(Collectors.toSet());
+    long l1 = System.currentTimeMillis();
 
-//    method6();
-//    method8();
-//    method9();
-//    method10();
-//    method11();
-//    method12();
-//    method13();
-//    method14();
-//    method15();
-    method16();
+    Map<String, User> map1 = list2.stream().collect(Collectors.toMap(User::getName, u -> u));
+    list1.forEach(user ->
+      map1.get(user.getName())
+    );
+    long l2 = System.currentTimeMillis();
+
+    Map<String, User> map2 = list3.stream().filter(user -> name1.contains(user.getName()))
+      .collect(Collectors.toMap(User::getName, u -> u));
+    list1.forEach(user ->
+      map2.get(user.getName())
+    );
+
+
+    long l3 = System.currentTimeMillis();
+
+    System.out.println(String.format("l2 - l1 = %d", l2 - l1));
+    System.out.println(String.format("l3 - l2 = %d", l3 - l2));
+
   }
 
   public static void method16() {

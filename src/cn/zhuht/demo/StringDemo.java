@@ -1,5 +1,7 @@
 package cn.zhuht.demo;
 
+import java.util.Arrays;
+
 /**
  * @author zhuhaitao
  * @date 2019/8/26 17:04
@@ -7,9 +9,15 @@ package cn.zhuht.demo;
 public class StringDemo {
   public static void main(String[] args) {
 
-    method02();
+    method03();
   }
 
+  public static void method03(){
+    String purpose = "夯实基础";
+    String[] split = purpose.split(",");
+    System.out.println(split.length);
+    Arrays.stream(split).forEach(System.out::println);
+  }
   public static void method02() {
     String name = String.format("%%%s%%", "name");
     System.out.println(name);
