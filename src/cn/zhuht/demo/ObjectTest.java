@@ -2,13 +2,25 @@ package cn.zhuht.demo;
 
 import cn.zhuht.jdk8test.pojo.User;
 
+import java.util.Objects;
+
 /**
  * @author zhuhaitao
  * @date 2019/8/28 9:36
  */
 public class ObjectTest {
   public static void main(String[] args) {
-    method02();
+    method04();
+  }
+
+  public static void method04() {
+    User user = new User("aa", 10);
+    System.out.println(Objects.equals(user.getAge(), 10));
+  }
+
+  public static void method03() {
+    User user = new User();
+    System.out.println(user.getAge() == 10);
   }
 
   public static void method02() {
