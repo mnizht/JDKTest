@@ -20,11 +20,11 @@ public class PatternTest {
   }
 
   public static void method02() {
-    String REGEX_MOBILE_PHONE = "^(0|86|17951)?(13[0-9]|14[579]|15[012356789]|166|17[1235678]|18[0-9]|19[189])\\s{0,1}[0-9]{4}\\s{0,1}[0-9]{4}$|^(0[0-9]{2,3}-?)?[0-9]{7,8}$|^400-?\\d{3}-?\\d{4}$";
+    String REGEX_MOBILE_PHONE = "^(0|86|17951)?(13[0-9]|14[3579]|15[012356789]|166|17[01235678]|18[0-9]|19[1789])\\s{0,1}[0-9]{4}\\s{0,1}[0-9]{4}$|^(0[0-9]{2,3}-?)?[0-9]{7,8}$|^400-?\\d{3}-?\\d{4}$";
 
-    String phone = "15737315814";
-    phone = phone.replaceAll("\\s+", "");
-    System.out.println(phone);
+    String phone = "19737315814";
+//    phone = phone.replaceAll("\\s+", "");
+//    System.out.println(phone);
     System.out.println(Pattern.compile(REGEX_MOBILE_PHONE).matcher(phone).matches());
 
   }
