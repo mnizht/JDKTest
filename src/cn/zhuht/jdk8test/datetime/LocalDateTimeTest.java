@@ -1,6 +1,7 @@
 package cn.zhuht.jdk8test.datetime;
 
 import java.time.DayOfWeek;
+import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -15,7 +16,16 @@ import java.util.TimeZone;
 public class LocalDateTimeTest {
   public static void main(String[] args) {
 
-    test05();
+    test06();
+  }
+
+  public static void test06() {
+    LocalDateTime now = LocalDateTime.now();
+    LocalDateTime fiveDayLater = now.plusDays(5).with(LocalTime.MIN);
+    long l = Duration.between(now, fiveDayLater).toDays();
+    System.out.println(l);
+
+
   }
 
   public static void test05() {
