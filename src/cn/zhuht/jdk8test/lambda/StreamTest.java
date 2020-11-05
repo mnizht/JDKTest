@@ -1,5 +1,6 @@
 package cn.zhuht.jdk8test.lambda;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
@@ -14,7 +15,13 @@ import java.util.stream.Collectors;
  */
 public class StreamTest {
   public static void main(String[] args) {
-    method01();
+    method02();
+  }
+
+  public static void method02() {
+    List<String> names = new ArrayList<>();
+    List<String> collect = names.stream().skip(10).limit(10).collect(Collectors.toList());
+    System.out.println(collect);
   }
 
   public static void method01() {
