@@ -1,5 +1,6 @@
 package cn.zhuht.demo;
 
+import cn.zhuht.jdk.generic.pojo.Person;
 import cn.zhuht.jdk8test.pojo.User;
 
 import java.util.Objects;
