@@ -9,9 +9,6 @@ import cn.zhuht.jdk.generic.classt.GenericType;
 public class Test {
   public static void main(String[] args) {
     // 泛型类new 时不指定泛型类型，默认泛型类型是 Object
-//    GenericType genericType = new GenericType();
-//    genericType.setT("sss");
-//    Object t = genericType.getT();
 
     GenericType<String> genericType = new GenericType<>();
     genericType.setT("ssss");
