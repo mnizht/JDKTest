@@ -22,7 +22,13 @@ import java.util.stream.Collectors;
  **/
 public class ListTest {
   public static void main(String[] args) {
-    method17();
+    method18();
+  }
+
+  public static void method18() {
+    List<Integer> integers = Arrays.asList(1, 2, 3, 4, 5, 6, 7);
+    String str = JSONArray.toJSONString(integers);
+    System.out.println(str);
   }
 
   public static void method17() {
