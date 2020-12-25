@@ -17,6 +17,11 @@ public class Main {
 
     System.out.println(user1.getAge().equals(user2.getAge()));
 
+    boolean a = false;
+    Boolean b = null;
+    boolean c = a || b;
+    System.out.println(c);
+
   }
 
 

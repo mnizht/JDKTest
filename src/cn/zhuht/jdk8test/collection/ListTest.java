@@ -22,7 +22,16 @@ import java.util.stream.Collectors;
  **/
 public class ListTest {
   public static void main(String[] args) {
-    method18();
+    method19();
+  }
+
+  public static void method19() {
+    List<String> studentNames = Arrays.asList("张三", "李四", "王五", "赵六", "田七");
+    if (studentNames.size() > 4) {
+      System.out.println(String.join(",", studentNames.subList(0, 4)) + "...");
+    } else {
+      System.out.println(String.join(",", studentNames.subList(0, studentNames.size())));
+    }
   }
 
   public static void method18() {
