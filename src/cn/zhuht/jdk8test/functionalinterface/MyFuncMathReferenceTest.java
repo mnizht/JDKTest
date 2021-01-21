@@ -2,7 +2,10 @@ package cn.zhuht.jdk8test.functionalinterface;
 
 import org.junit.Test;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 /**
  * author zhuhaitao

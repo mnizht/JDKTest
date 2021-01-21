@@ -1,8 +1,6 @@
 package cn.zhuht.jdk8test.collection;
 
 import cn.zhuht.jdk8test.pojo.User;
-import com.alibaba.fastjson.serializer.MapSerializer;
-import org.junit.Assert;
 
 import java.util.HashMap;
 import java.util.HashSet;

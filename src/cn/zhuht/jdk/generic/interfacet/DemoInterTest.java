@@ -1,7 +1,5 @@
 package cn.zhuht.jdk.generic.interfacet;
 
-import cn.zhuht.jdk.generic.interfacet.GenericInter;
-
 /**
  * @author haitao zhu
  * @date 2020/7/11 15:19
