@@ -6,6 +6,7 @@ import java.time.Instant;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.ZoneId;
+import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoField;
 import java.util.TimeZone;
 
@@ -14,9 +15,19 @@ import java.util.TimeZone;
  * @date 2019/7/20 18:34
  */
 public class LocalDateTimeTest {
+  public static final DateTimeFormatter DATETIME_FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm");
+  public static final DateTimeFormatter REMOVE_SECOND_FORMATTER = DateTimeFormatter.ofPattern("HH:mm");
+
   public static void main(String[] args) {
 
-    test06();
+    test07();
+  }
+
+  public static void test07() {
+    LocalDateTime now = LocalDateTime.now();
+    System.out.println(now.format(DATETIME_FORMATTER));
+    System.out.println(now.toLocalTime().format(REMOVE_SECOND_FORMATTER));
+
   }
 
   public static void test06() {
