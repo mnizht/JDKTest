@@ -22,7 +22,12 @@ import java.util.stream.Collectors;
  **/
 public class ListTest {
   public static void main(String[] args) {
-    method19();
+    method20();
+  }
+
+  public static void method20() {
+    List<Integer> list = Arrays.asList(1, 2, 3);
+    System.out.println(String.format("right %s", list));
   }
 
   public static void method19() {

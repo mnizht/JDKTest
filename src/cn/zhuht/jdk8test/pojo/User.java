@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 @Accessors(chain = true)
 public class User {
   private String name;
+  private String oldName;
   private Integer age;
   private Double weight;
   private LocalDateTime birthday;
@@ -117,5 +118,14 @@ public class User {
 
   public String toString() {
     return "User(name=" + this.getName() + ", age=" + this.getAge() + ", weight=" + this.getWeight() + ", birthday=" + this.getBirthday() + ")";
+  }
+
+  public User setOldName(String oldName) {
+    this.oldName = oldName;
+    return this;
+  }
+
+  public String getOldName() {
+    return oldName;
   }
 }
