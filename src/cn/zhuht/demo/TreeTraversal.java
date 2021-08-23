@@ -225,6 +225,18 @@ class Node {
     return right;
   }
 
+  public void setId(Integer id) {
+    Id = id;
+  }
+
+  public void setLeft(Node left) {
+    this.left = left;
+  }
+
+  public void setRight(Node right) {
+    this.right = right;
+  }
+
   private Integer Id;
   private Node left;
   private Node right;
