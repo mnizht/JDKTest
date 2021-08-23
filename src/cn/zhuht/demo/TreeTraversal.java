@@ -32,10 +32,10 @@ public class TreeTraversal {
   public static Node initNode() {
     Node six = new Node(6, null, null);
     Node five = new Node(5, null, null);
-    Node four = new Node(4, null, null);
-    Node three = new Node(3, five, six);
-    Node two = new Node(2, null, four);
-    Node one = new Node(1, two, three);
+    Node four = new Node(4, five, six);
+    Node three = new Node(3, null, null);
+    Node two = new Node(2, three, four);
+    Node one = new Node(1, two, four);
 
     return one;
   }
