@@ -6,19 +6,24 @@ package cn.zhuht.demo;
  */
 public class FinallyTest {
   public static void main(String[] args) {
-    String s = "sss";
-    try {
-      if (s.length() > 1) {
-        return;
-      }
-      int i = Integer.parseInt(s);
-      System.out.println(i);
-      return;
-    } catch (Exception e) {
-      System.out.println(e.toString());
-    } finally {
-      System.out.println("finally");
-    }
+
+    FinallyTest2 test2 = new FinallyTest2();
+    System.out.println("=======" + test2.ff());
+
+
+//    String s = "sss";
+//    try {
+//      if (s.length() > 1) {
+//        return;
+//      }
+//      int i = Integer.parseInt(s);
+//      System.out.println(i);
+//      return;
+//    } catch (Exception e) {
+//      System.out.println(e.toString());
+//    } finally {
+//      System.out.println("finally");
+//    }
 
   }
 }
